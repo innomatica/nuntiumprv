@@ -1,0 +1,66 @@
+---
+version: 1
+createdAt: '2022-03-03 12:12:00.000Z'
+locale: 'ja-JP'
+data:
+- sourceName: 朝日新聞
+  shortName: 朝日新聞
+  homePage: https://www.asahi.com
+  description: ''
+  categories:
+  - news
+  rssList: https://www.asahi.com/information/service/rss.html
+  favicon: https://www.asahi.com/favicon.ico
+  rssChannels:
+    デジタル速報ニュース: https://www.asahi.com/rss/asahi/newsheadlines.rdf
+    社会: https://www.asahi.com/rss/asahi/national.rdf
+    政治: https://www.asahi.com/rss/asahi/politics.rdf
+    スポーツ: https://www.asahi.com/rss/asahi/sports.rdf
+    オリンピック: https://www.asahi.com/rss/olympics.rdf
+    サッカーワールドカップ: https://www.asahi.com/rss/worldcup.rdf
+    経済・マネー: https://www.asahi.com/rss/asahi/business.rdf
+    国際: https://www.asahi.com/rss/asahi/international.rdf
+    カルチャー: https://www.asahi.com/rss/asahi/culture.rdf
+    どうぶつ新聞: https://www.asahi.com/rss/animal.rdf
+    テック＆サイエンス: https://www.asahi.com/rss/asahi/science.rdf
+    囲碁: https://www.asahi.com/rss/asahi/igo.rdf
+    将棋: https://www.asahi.com/rss/asahi/shogi.rdf
+    住まい: https://www.asahi.com/rss/asahi/housing.rdf
+    就職転職: https://www.asahi.com/rss/asahi/job.rdf
+    食と料理: https://www.asahi.com/rss/asahi/food.rdf
+    ファッション: https://www.asahi.com/rss/asahi/fashion.rdf
+    健康: https://www.asahi.com/rss/asahi/health.rdf
+    愛車: https://www.asahi.com/rss/asahi/car.rdf
+    教育: https://www.asahi.com/rss/asahi/edu.rdf
+    デジタル: https://www.asahi.com/rss/asahi/digital.rdf
+    トラベル: https://www.asahi.com/rss/asahi/travel.rdf
+    環境・エネルギー: https://www.asahi.com/rss/asahi/eco.rdf
+    ショッピング: https://www.asahi.com/rss/asahi/shopping.rdf
+- sourceName: Nikkei Asia
+  shortName: Nikkei Asia
+  homePage: https://asia.nikkei.com
+  description: ''
+  categories:
+  - news
+  rssList: https://info.asia.nikkei.com/rss
+  favicon: https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/a0wZqCfr/favicon_A.ico
+  rssChannels:
+    News: https://asia.nikkei.com/rss/feed/nar
+- sourceName: NHKニュース
+  shortName: NHKニュース
+  homePage: http://www.nhk.or.jp/news/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.nhk.or.jp/toppage/rss/index.html
+  favicon: https://www.nhk.or.jp/favicon.ico
+  rssChannels:
+    主要ニュース: https://www.nhk.or.jp/rss/news/cat0.xml
+    社会: https://www.nhk.or.jp/rss/news/cat1.xml
+    科学・医療: https://www.nhk.or.jp/rss/news/cat3.xml
+    政治: https://www.nhk.or.jp/rss/news/cat4.xml
+    経済: https://www.nhk.or.jp/rss/news/cat5.xml
+    国際: https://www.nhk.or.jp/rss/news/cat6.xml
+    スポーツ: https://www.nhk.or.jp/rss/news/cat7.xml
+    文化・エンタメ: https://www.nhk.or.jp/rss/news/cat2.xml
+    LIVEニュース: https://www.nhk.or.jp/rss/news/cat-live.xml

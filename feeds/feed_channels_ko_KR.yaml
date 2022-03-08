@@ -1,0 +1,867 @@
+---
+version: 1
+createdAt: '2022-03-03 12:12:00.000Z'
+data:
+- sourceName: 경향신문
+  shortName: 경향신문
+  homePage: https://www.khan.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.khan.co.kr/help/help_rss.html
+  favicon: https://www.khan.co.kr/favicon.ico
+  rssChannels:
+    전체뉴스: https://www.khan.co.kr/rss/rssdata/total_news.xml
+    정치: https://www.khan.co.kr/rss/rssdata/politic_news.xml
+    경제: https://www.khan.co.kr/rss/rssdata/economy_news.xml
+    사회: https://www.khan.co.kr/rss/rssdata/society_news.xml
+    국제: https://www.khan.co.kr/rss/rssdata/kh_world.xml
+    스포츠: http://www.khan.co.kr/rss/rssdata/kh_sports.xml
+    문화: https://www.khan.co.kr/rss/rssdata/culture_news.xml
+    연예: https://www.khan.co.kr/rss/rssdata/kh_entertainment.xml
+    IT: http://www.khan.co.kr/rss/rssdata/it_news.xml
+    전국: https://www.khan.co.kr/rss/rssdata/local_news.xml
+    인물: https://www.khan.co.kr/rss/rssdata/people_news.xml
+    오피니언: https://www.khan.co.kr/rss/rssdata/opinion_news.xml
+- sourceName: 교보문고 북뉴스
+  shortName: 교보문고
+  homePage: http://news.kyobobook.co.kr/main.ink
+  description: ''
+  categories:
+  - bookstore
+  rssList: http://news.kyobobook.co.kr/RSS.ink
+  favicon: https://www.kyobobook.co.kr/favicon.ico
+  rssChannels:
+    뉴스전체: http://news.kyobobook.co.kr/rssv2/booknews_all_rss.xml
+    오늘뉴스: http://news.kyobobook.co.kr/rssv2/todaynews_rss.xml
+    눈에 띄는 책: http://news.kyobobook.co.kr/rssv2/eyebook_rss.xml
+    기획특집: http://news.kyobobook.co.kr/rssv2/specialplus_rss.xml
+    인터뷰: http://news.kyobobook.co.kr/rssv2/interview_rss.xml
+    연재:기사 전체: http://news.kyobobook.co.kr/rssv2/publish_rss.xml
+    연재:웹툰: http://news.kyobobook.co.kr/rssv2/publish_webtoon_rss.xml
+    연재:칼럼: http://news.kyobobook.co.kr/rssv2/publish_opencolumnlist_rss.xml
+    연재:READ IT: http://news.kyobobook.co.kr/rssv2/publish_readit_rss.xml
+    연재:북챗: http://news.kyobobook.co.kr/rssv2/publish_bookchat_rss.xml
+    북TV:기사 전체: http://news.kyobobook.co.kr/rssv2/booktv_rss.xml
+    북TV:북캐스트: http://news.kyobobook.co.kr/rssv2/booktv_welcomeshow_rss.xml
+    북TV:북튜버: http://news.kyobobook.co.kr/rssv2/booktv_booktube_rss.xml
+    북TV:영상스케치: http://news.kyobobook.co.kr/rssv2/booktv_sketch_rss.xml
+    연재종료:기사 전체: http://news.kyobobook.co.kr/rssv2/publishend_rss.xml
+    연재종료:책상자: http://news.kyobobook.co.kr/rssv2/booktv_bookbox_rss.xml
+    연재종료:베스트셀러: http://news.kyobobook.co.kr/rssv2/booktv_bestseller_rss.xml
+    연재종료:북트레일러: http://news.kyobobook.co.kr/rssv2/booktv_booktrailer_rss.xml
+    연재종료:북토리언: http://news.kyobobook.co.kr/rssv2/publish_booktorianlist_rss.xml
+    연재종료:소설: http://news.kyobobook.co.kr/rssv2/publish_novel_rss.xml
+- sourceName: 국민일보
+  shortName: 국민일보
+  homePage: http://www.kmib.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: http://rss.kmib.co.kr/
+  favicon: http://www.kmib.co.kr/images/cmn/favicon.ico
+  rssChannels:
+    전체기사: http://rss.kmib.co.kr/data/kmibRssAll.xml
+    정치: http://rss.kmib.co.kr/data/kmibPolRss.xml
+    경제: http://rss.kmib.co.kr/data/kmibEcoRss.xml
+    사회: http://rss.kmib.co.kr/data/kmibSocRss.xml
+    국제: http://rss.kmib.co.kr/data/kmibIntRss.xml
+    스포츠: http://rss.kmib.co.kr/data/kmibSpoRss.xml
+    문화: http://rss.kmib.co.kr/data/kmibCulRss.xml
+    생활: http://rss.kmib.co.kr/data/kmibLifRss.xml
+    사설/칼럼: http://rss.kmib.co.kr/data/kmibColRss.xml
+    기독교계 소식: http://rss.kmib.co.kr/data/kmibChrRss.xml
+    겨자씨: http://rss.kmib.co.kr/data/kmibSeedRss.xml
+    역경의 열매: http://rss.kmib.co.kr/data/kmibAdvRss.xml
+    가정예배: http://rss.kmib.co.kr/data/kmibWorRss.xml
+- sourceName: 뉴스와이어
+  shortName: 뉴스와이어
+  homePage: https://www.newswire.co.kr
+  description: 뉴스와이어는 기업이 언론에 보도자료를 쉽게 배포할 수 있도록 해주는 보도자료 배포 서비스입니다
+  categories:
+  - press release
+  rssList: https://www.newswire.co.kr/?md=A31
+  favicon: https://www.newswire.co.kr/favicon.ico
+  rssChannels:
+    보도자료 전체: https://api.newswire.co.kr/rss/all
+    IT: https://api.newswire.co.kr/rss/industry/600
+    건강: https://api.newswire.co.kr/rss/industry/1000
+    경제: https://api.newswire.co.kr/rss/industry/100
+    교육: https://api.newswire.co.kr/rss/industry/1100
+    금융: https://api.newswire.co.kr/rss/industry/200
+    농수산: https://api.newswire.co.kr/rss/industry/1700
+    라이프 스타일: https://api.newswire.co.kr/rss/industry/900
+    레저: https://api.newswire.co.kr/rss/industry/1300
+    문화/연예: https://api.newswire.co.kr/rss/industry/1200
+    물류/교통: https://api.newswire.co.kr/rss/industry/1800
+    미디어: https://api.newswire.co.kr/rss/industry/700
+    부동산: https://api.newswire.co.kr/rss/industry/300
+    사회: https://api.newswire.co.kr/rss/industry/1900
+    산업: https://api.newswire.co.kr/rss/industry/400
+    스포츠: https://api.newswire.co.kr/rss/industry/1600
+    에너지/환경: https://api.newswire.co.kr/rss/industry/1500
+    유통: https://api.newswire.co.kr/rss/industry/800
+    자동차: https://api.newswire.co.kr/rss/industry/500
+    정책/정부: https://api.newswire.co.kr/rss/industry/1400
+    상장사: https://api.newswire.co.kr/rss/irnews
+    영문: https://api.newswire.co.kr/rss/english
+    동영상: https://api.newswire.co.kr/rss/movie
+    서울: https://api.newswire.co.kr/rss/region/1
+    인천/경기: https://api.newswire.co.kr/rss/region/2
+    대전/충남: https://api.newswire.co.kr/rss/region/3
+    광주/전남: https://api.newswire.co.kr/rss/region/4
+    부산/울산/경남: https://api.newswire.co.kr/rss/region/5
+    대구/경북: https://api.newswire.co.kr/rss/region/6
+    강원: https://api.newswire.co.kr/rss/region/7
+    충북: https://api.newswire.co.kr/rss/region/8
+    전북: https://api.newswire.co.kr/rss/region/9
+    제주: https://api.newswire.co.kr/rss/region/10
+    해외: https://api.newswire.co.kr/rss/region/11
+    개발: https://api.newswire.co.kr/rss/theme/112
+    공모/모집: https://api.newswire.co.kr/rss/theme/114
+    기업문화: https://api.newswire.co.kr/rss/theme/108
+    기타: https://api.newswire.co.kr/rss/theme/125
+    분양: https://api.newswire.co.kr/rss/theme/109
+    사업계획: https://api.newswire.co.kr/rss/theme/116
+    사회공헌: https://api.newswire.co.kr/rss/theme/107
+    선언/의견: https://api.newswire.co.kr/rss/theme/117
+    설립: https://api.newswire.co.kr/rss/theme/111
+    소송: https://api.newswire.co.kr/rss/theme/124
+    수상/선정: https://api.newswire.co.kr/rss/theme/118
+    수주: https://api.newswire.co.kr/rss/theme/113
+    신상품: https://api.newswire.co.kr/rss/theme/101
+    실적: https://api.newswire.co.kr/rss/theme/102
+    인물동정: https://api.newswire.co.kr/rss/theme/104
+    인사: https://api.newswire.co.kr/rss/theme/105
+    인수/합병: https://api.newswire.co.kr/rss/theme/119
+    전시/출품: https://api.newswire.co.kr/rss/theme/120
+    정책: https://api.newswire.co.kr/rss/theme/123
+    제휴: https://api.newswire.co.kr/rss/theme/106
+    조사연구: https://api.newswire.co.kr/rss/theme/121
+    채용: https://api.newswire.co.kr/rss/theme/115
+    투자: https://api.newswire.co.kr/rss/theme/110
+    판촉활동: https://api.newswire.co.kr/rss/theme/103
+    행사: https://api.newswire.co.kr/rss/theme/122
+- sourceName: 노컷뉴스
+  shortName: 노컷뉴스
+  homePage: https://nocutnews.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://nocutnews.co.kr/rss/
+  favicon: https://nocutnews.co.kr/favicon.ico
+  rssChannels:
+    정치: https://rss.nocutnews.co.kr/category/politics.xml
+    경제: https://rss.nocutnews.co.kr/category/economy.xml
+    사회: https://rss.nocutnews.co.kr/category/society.xml
+    문화: https://rss.nocutnews.co.kr/category/culture.xml
+    세계: https://rss.nocutnews.co.kr/category/world.xml
+    IT/과학: https://rss.nocutnews.co.kr/category/it.xml
+    연예: https://rss.nocutnews.co.kr/category/entertainment.xml
+    스포츠: https://rss.nocutnews.co.kr/category/sports.xml
+    전국: https://rss.nocutnews.co.kr/category/area.xml
+    오피니언: https://rss.nocutnews.co.kr/category/opinion.xml
+    포토: https://rss.nocutnews.co.kr/category/photo.xml
+    전체: https://rss.nocutnews.co.kr/news/news.xml
+    TOP: https://rss.nocutnews.co.kr/news/top.xml
+    강원: https://rss.nocutnews.co.kr/news/gangwon.xml
+    강원영동: https://rss.nocutnews.co.kr/news/yeongdong.xml
+    경인: https://rss.nocutnews.co.kr/news/gyeongin.xml
+    경남: https://rss.nocutnews.co.kr/news/gyeongnam.xml
+    광주: https://rss.nocutnews.co.kr/news/gwangju.xml
+    대구: https://rss.nocutnews.co.kr/news/daegu.xml
+    대전: https://rss.nocutnews.co.kr/news/daejeon.xml
+    부산: https://rss.nocutnews.co.kr/news/busan.xml
+    울산: https://rss.nocutnews.co.kr/news/ulsan.xml
+    전남: https://rss.nocutnews.co.kr/news/jeonnam.xml
+    전북: https://rss.nocutnews.co.kr/news/jeonbuk.xml
+    제주: https://rss.nocutnews.co.kr/news/jeju.xml
+    청주: https://rss.nocutnews.co.kr/news/cheongju.xml
+    포항: https://rss.nocutnews.co.kr/news/pohang.xml
+- sourceName: 동아일보
+  shortName: 동아일보
+  homePage: https://www.donga.com/
+  description: ''
+  categories:
+  - news
+  rssList: http://rss.donga.com/
+  favicon: http://rss.donga.com/favicon.ico
+  rssChannels:
+    전체기사: https://rss.donga.com/total.xml
+    정치: https://rss.donga.com/politics.xml
+    사회: https://rss.donga.com/national.xml
+    경제: https://rss.donga.com/economy.xml
+    국제: https://rss.donga.com/international.xml
+    사설칼럼: https://rss.donga.com/editorials.xml
+    의학과학: https://rss.donga.com/science.xml
+    문화연예: https://rss.donga.com/culture.xml
+    스포츠: https://rss.donga.com/sports.xml
+    사람속으로: https://rss.donga.com/inmul.xml
+    건강: https://rss.donga.com/health.xml
+    레져: https://rss.donga.com/leisure.xml
+    도서: https://rss.donga.com/book.xml
+    공연: https://rss.donga.com/show.xml
+    여성: https://rss.donga.com/woman.xml
+    여행: https://rss.donga.com/travel.xml
+    생활정보: https://rss.donga.com/lifeinfo.xml
+- sourceName: 대구신문
+  shortName: 대구신문
+  homePage: https://www.idaegu.co.kr
+  description: ''
+  categories:
+  - news
+  rssList: https://www.idaegu.co.kr/rss/
+  favicon: https://www.idaegu.co.kr/image/logo/favicon_20180618095934.ico
+  rssChannels:
+    전체기사: https://www.idaegu.co.kr/rss/allArticle.xml
+    인기기사: https://www.idaegu.co.kr/rss/clickTop.xml
+    정치: https://www.idaegu.co.kr/rss/S1N1.xml
+    경제: https://www.idaegu.co.kr/rss/S1N2.xml
+    사회: https://www.idaegu.co.kr/rss/S1N3.xml
+    경북: https://www.idaegu.co.kr/rss/S1N4.xml
+    문화: https://www.idaegu.co.kr/rss/S1N5.xml
+    스포츠: https://www.idaegu.co.kr/rss/S1N6.xml
+    오피니언: https://www.idaegu.co.kr/rss/S1N7.xml
+    포토뉴스: https://www.idaegu.co.kr/rss/S1N8.xml
+    사람들: https://www.idaegu.co.kr/rss/S1N9.xml
+    어린이는 미래다: https://www.idaegu.co.kr/rss/S1N10.xml
+    독자마당: https://www.idaegu.co.kr/rss/S1N11.xml
+    기획특집: https://www.idaegu.co.kr/rss/S1N12.xml
+    종합: https://www.idaegu.co.kr/rss/S1N13.xml
+- sourceName: 데일리한국
+  shortName: 데일리한국
+  homePage: http://daily.hankooki.com/
+  description: ''
+  categories:
+  - news
+  rssList: http://rss.hankooki.com/
+  favicon: https://cdn.daily.hankooki.com/image/logo/favicon.ico
+  rssChannels:
+    전체: http://rss.hankooki.com/daily/dh_main.xml
+    정치: http://rss.hankooki.com/daily/dh_politics.xml
+    경제: http://rss.hankooki.com/daily/dh_economy.xml
+    사회: http://rss.hankooki.com/daily/dh_society.xml
+    국제: http://rss.hankooki.com/daily/dh_world.xml
+    IT·과학: http://rss.hankooki.com/daily/dh_it_tech.xml
+    문화: http://rss.hankooki.com/daily/dh_culture.xml
+    라이프: http://rss.hankooki.com/daily/dh_life.xml
+    칼럼: http://rss.hankooki.com/daily/dh_column.xml
+    연재물: http://rss.hankooki.com/daily/dh_series.xml
+    비즈브리핑: http://rss.hankooki.com/daily/dh_biz.xml
+    멀티미디어 - 전체: https://rss.hankooki.com/eyenews/ey00_list.xml
+    멀티미디어 - 포토: https://rss.hankooki.com/eyenews/eye_photo.xml
+    멀티미디어 - 동영상: https://rss.hankooki.com/eyenews/eye_movie.xml
+- sourceName: 매일경제
+  shortName: 매일경제
+  homePage: https://www.mk.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.mk.co.kr/rss/
+  favicon: https://img.mk.co.kr/main/2015/mk_new/favicon_new.ico
+  rssChannels:
+    헤드라인: https://www.mk.co.kr/rss/30000001/
+    전체뉴스: https://www.mk.co.kr/rss/40300001/
+    경제: https://www.mk.co.kr/rss/30100041/
+    정치: https://www.mk.co.kr/rss/30200030/
+    사회: https://www.mk.co.kr/rss/50400012/
+    국제: https://www.mk.co.kr/rss/30300018/
+    기업ㆍ경영: https://www.mk.co.kr/rss/50100032/
+    증권: https://www.mk.co.kr/rss/50200011/
+    부동산: https://www.mk.co.kr/rss/50300009/
+    문화ㆍ연예: https://www.mk.co.kr/rss/30000023/
+    스포츠: https://www.mk.co.kr/rss/71000001/
+    게임: https://www.mk.co.kr/rss/50700001/
+    MBA: https://www.mk.co.kr/rss/40200124/
+    머니 앤 리치스: https://www.mk.co.kr/rss/40200003/
+    Top Stories: https://www.mk.co.kr/rss/30800011/
+    이코노미: https://www.mk.co.kr/rss/50000001/
+    시티라이프: https://www.mk.co.kr/rss/60000007/
+- sourceName: 모터그래프
+  shortName: 모터그래프
+  homePage: https://www.motorgraph.com/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.motorgraph.com/rss/
+  favicon: https://www.motorgraph.com/image/logo/favicon_20180420032255.ico
+  rssChannels:
+    전체기사: https://www.motorgraph.com/rss/allArticle.xml
+    인기기사: https://www.motorgraph.com/rss/clickTop.xml
+    신차: https://www.motorgraph.com/rss/S1N1.xml
+    업계·정책: https://www.motorgraph.com/rss/S1N2.xml
+    칼럼·분석: https://www.motorgraph.com/rss/S1N3.xml
+    시승기·리뷰: https://www.motorgraph.com/rss/S1N4.xml
+    결함·문제점: https://www.motorgraph.com/rss/S1N5.xml
+    라이프: https://www.motorgraph.com/rss/S1N6.xml
+    모터쇼: https://www.motorgraph.com/rss/S1N7.xml
+    업계의 소리: https://www.motorgraph.com/rss/S1N8.xml
+- sourceName: 미디어오늘
+  shortName: 미디어오늘
+  homePage: http://www.mediatoday.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: http://www.mediatoday.co.kr/rssIndex.html
+  favicon: https://cdn.mediatoday.co.kr/image/logo/favicon.ico
+  rssChannels:
+    전체기사: https://www.mediatoday.co.kr/rss/allArticle.xml
+    인기기사: https://www.mediatoday.co.kr/rss/clickTop.xml
+    정치: https://www.mediatoday.co.kr/rss/S1N2.xml
+    경제: https://www.mediatoday.co.kr/rss/S1N3.xml
+    사회: https://www.mediatoday.co.kr/rss/S1N4.xml
+    문화: https://www.mediatoday.co.kr/rss/S1N5.xml
+    국제: https://www.mediatoday.co.kr/rss/S1N6.xml
+    IT: https://www.mediatoday.co.kr/rss/S1N7.xml
+    오피니언: https://www.mediatoday.co.kr/rss/S1N8.xml
+    동영상: https://www.mediatoday.co.kr/rss/S1N10.xml
+    미디어: https://www.mediatoday.co.kr/rss/S1N11.xml
+- sourceName: 세계일보
+  shortName: 세계일보
+  homePage: http://www.segye.com/
+  description: ''
+  categories:
+  - news
+  rssList: http://www.segye.com/rssInfo
+  favicon: http://www.segye.com/favicon.ico
+  rssChannels:
+    전체뉴스: http://www.segye.com/Articles/RSSList/segye_recent.xml
+    정치: http://www.segye.com/Articles/RSSList/segye_politic.xml
+    경제: http://www.segye.com/Articles/RSSList/segye_economy.xml
+    사회: http://www.segye.com/Articles/RSSList/segye_society.xml
+    국제: http://www.segye.com/Articles/RSSList/segye_international.xml
+    전국: http://www.segye.com/Articles/RSSList/segye_local.xml
+    문화: http://www.segye.com/Articles/RSSList/segye_culture.xml
+    오피니언: http://www.segye.com/Articles/RSSList/segye_opinion.xml
+    연예: http://www.segye.com/Articles/RSSList/segye_entertainment.xml
+    스포츠: http://www.segye.com/Articles/RSSList/segye_sports.xml
+    포토: http://www.segye.com/Articles/RSSList/segye_photo.xml
+- sourceName: 세계파이낸스
+  shortName: 세계파이낸스
+  homePage: http://www.segyebiz.com/
+  description: ''
+  categories:
+  - news
+  rssList: http://www.segye.com/rssInfo
+  favicon: https://www.segye.com/favicon.ico
+  rssChannels:
+    전체뉴스: http://www.segyefn.com/views/rss/all_recent.xml
+    금융: http://www.segyefn.com/views/rss/finance.xml
+    산업: http://www.segyefn.com/views/rss/industry.xml
+    부동산: http://www.segyefn.com/views/rss/property.xml
+    증권: http://www.segyefn.com/views/rss/stock.xml
+    오피니언: http://www.segyefn.com/views/rss/opinion.xml
+    CSR: http://www.segyefn.com/views/rss/csr.xml
+- sourceName: 스포츠경향
+  shortName: 스포츠경향
+  homePage: https://sports.khan.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.khan.co.kr/help/help_rss.html
+  favicon: https://www.khan.co.kr/favicon.ico
+  rssChannels:
+    전체뉴스: https://www.khan.co.kr/rss/rssdata/sktotal_news.xml
+    스포츠: https://www.khan.co.kr/rss/rssdata/sksports_news.xml
+    연예: https://www.khan.co.kr/rss/rssdata/sk_entertainment.xml
+    생활·레저: https://www.khan.co.kr/rss/rssdata/skentertain_news.xml
+- sourceName: 스포츠동아
+  shortName: 스포츠동아
+  homePage: https://sports.donga.com/
+  description: ''
+  categories:
+  - news
+  rssList: http://rss.donga.com/
+  favicon: https://sports.donga.com/favicon.ico
+  rssChannels:
+    야구&MLB: https://rss.donga.com/sportsdonga/baseball.xml
+    축구: https://rss.donga.com/sportsdonga/soccer.xml
+    골프: https://rss.donga.com/sportsdonga/golf.xml
+    종합: https://rss.donga.com/sportsdonga/sports_general.xml
+    엔터테인먼트: https://rss.donga.com/sportsdonga/entertainment.xml
+- sourceName: 스포츠월드
+  shortName: 스포츠월드
+  homePage: http://www.sportsworldi.com
+  description: ''
+  categories:
+  - news
+  rssList: http://www.segye.com/rssInfo
+  favicon: http://www.sportsworldi.com/favicon.ico
+  rssChannels:
+    전체뉴스: http://www.sportsworldi.com/Articles/RSSList/sw_recent.xml
+    스포츠: http://www.sportsworldi.com/Articles/RSSList/sw_sports.xml
+    연예: http://www.sportsworldi.com/Articles/RSSList/sw_entertainment.xml
+    라이프: http://www.sportsworldi.com/Articles/RSSList/sw_life.xml
+- sourceName: 스포츠한국
+  shortName: 스포츠한국
+  homePage: http://sports.hankooki.com/
+  description: ''
+  categories:
+  - news
+  rssList: https://rss.hankooki.com/
+  favicon: http://img.hankooki.com/icon/sports/favicon.ico
+  rssChannels:
+    전체: https://rss.hankooki.com/sports/sp_main.xml
+    야구: https://rss.hankooki.com/sports/sp_baseball.xml
+    축구: https://rss.hankooki.com/sports/sp_soccer.xml
+    스포츠종합: https://rss.hankooki.com/sports/sp_sports.xml
+    연예: https://rss.hankooki.com/sports/sp_entv.xml
+    라이프: https://rss.hankooki.com/sports/sp_life.xml
+    연재물: https://rss.hankooki.com/sports/sp_series.xml
+    경제: https://rss.hankooki.com/sports/sp_economy.xml
+    시사: https://rss.hankooki.com/sports/sp_sisa.xml
+    문화: https://rss.hankooki.com/sports/sp_culture.xml
+- sourceName: 시사IN
+  shortName: 시사IN
+  homePage: https://www.sisain.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.sisain.co.kr/rss.html
+  favicon: https://www.sisain.co.kr/image/logo/favicon.ico
+  rssChannels:
+    전체기사: https://www.sisain.co.kr/rss/allArticle.xml
+    인기기사: https://www.sisain.co.kr/rss/clickTop.xml
+    COVER STORY IN: https://www.sisain.co.kr/rss/S1N2.xml
+    정치: https://www.sisain.co.kr/rss/S1N6.xml
+    경제: https://www.sisain.co.kr/rss/S1N7.xml
+    사회: https://www.sisain.co.kr/rss/S1N8.xml
+    문화: https://www.sisain.co.kr/rss/S1N9.xml
+    라이프: https://www.sisain.co.kr/rss/S1N10.xml
+    국제·한반도: https://www.sisain.co.kr/rss/S1N11.xml
+    인터뷰·오피니언: https://www.sisain.co.kr/rss/S1N12.xml
+    교육: https://www.sisain.co.kr/rss/S1N13.xml
+    만화: https://www.sisain.co.kr/rss/S1N14.xml
+    사진: https://www.sisain.co.kr/rss/S1N15.xml
+    English: https://www.sisain.co.kr/rss/S1N23.xml
+- sourceName: 시사저널
+  shortName: 시사저널
+  homePage: http://www.sisajournal.com/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.sisajournal.com/rss/
+  favicon: https://www.sisajournal.com/image/logo/favicon.ico
+  rssChannels:
+    전체기사: http://www.sisajournal.com/rss/allArticle.xml
+    인기기사: http://www.sisajournal.com/rss/clickTop.xml
+    사회: http://www.sisajournal.com/rss/S1N47.xml
+    경제: http://www.sisajournal.com/rss/S1N54.xml
+    한반도: http://www.sisajournal.com/rss/S1N55.xml
+    LIFE: http://www.sisajournal.com/rss/S1N56.xml
+    OPINION: http://www.sisajournal.com/rss/S1N57.xml
+    정치: http://www.sisajournal.com/rss/S1N58.xml
+    국제: http://www.sisajournal.com/rss/S1N59.xml
+    Health: http://www.sisajournal.com/rss/S2N106.xml
+    Culture: http://www.sisajournal.com/rss/S2N107.xml
+- sourceName: 아이뉴스24
+  shortName: 아이뉴스24
+  homePage: https://www.inews24.com/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.inews24.com/customer/rss/
+  favicon: https://www.inews24.com/favicon.ico
+  rssChannels:
+    IT: https://www.inews24.com/rss/news_it.xml
+    경제: https://www.inews24.com/rss/news_economy.xml
+    정치: https://www.inews24.com/rss/news_politics.xml
+    사회: https://www.inews24.com/rss/news_society.xml
+    문화: https://www.inews24.com/rss/news_culture.xml
+    생활: https://www.inews24.com/rss/news_life.xml
+    연예: https://www.inews24.com/rss/news_enter.xml
+    스포츠: https://www.inews24.com/rss/news_sports.xml
+- sourceName: SBS 뉴스
+  shortName: SBS 뉴스
+  homePage: https://news.sbs.co.kr
+  description: ''
+  categories:
+  - news
+  rssList: https://news.sbs.co.kr/news/rss.do
+  favicon: https://news.sbs.co.kr/favicon.ico
+  rssChannels:
+    정치: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01&plink=RSSREADER
+    경제: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02&plink=RSSREADER
+    사회: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03&plink=RSSREADER
+    생활/문화: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07&plink=RSSREADER
+    극제/글로벌: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08&plink=RSSREADER
+    연예/방송: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=14&plink=RSSREADER
+    스포츠: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09&plink=RSSREADER
+    8뉴스: https://news.sbs.co.kr/news/ReplayRssFeed.do?prog_cd=R1&plink=RSSREADER
+    모닝와이드: https://news.sbs.co.kr/news/ReplayRssFeed.do?prog_cd=R2&plink=RSSREADER
+    3시 뉴스브리핑: https://news.sbs.co.kr/news/ReplayRssFeed.do?prog_cd=RN&plink=RSSREADER
+    오뉴스: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=RO&plink=RSSREADER
+    나이트라인: https://news.sbs.co.kr/news/ReplayRssFeed.do?prog_cd=R5&plink=RSSREADER
+    뉴스토리: https://news.sbs.co.kr/news/ReplayRssFeed.do?prog_cd=RJ&plink=RSSREADER
+    SBS스페셜: https://news.sbs.co.kr/news/ReplayRssFeed.do?prog_cd=RB&plink=RSSREADER
+    취재파일: https://news.sbs.co.kr/news/Coverage_RssFeed.do?plink=RSSREADER
+    비디오머그: https://news.sbs.co.kr/news/VideoMug_RssFeed.do?plink=RSSREADER
+    스브스뉴스: https://news.sbs.co.kr/news/Subusu_RssFeed.do?plink=RSSREADER
+- sourceName: 에이빙
+  shortName: 에이빙
+  homePage: http://www.aving.net
+  description: ''
+  categories:
+  - news
+  rssList: http://www.aving.net/?page_id=11228
+  favicon: http://kr.aving.net/favicon.ico
+  rssChannels:
+    모바일/통신: http://www.aving.net/rss/mobile.xml
+    컴퓨팅: http://www.aving.net/rss/computing.xml
+    가전: http://www.aving.net/rss/homeappliance.xml
+    라이프: http://www.aving.net/rss/life.xml
+    하우징: http://www.aving.net/rss/housing.xml
+    자동차: http://www.aving.net/rss/motor.xml
+    영상음향: http://www.aving.net/rss/avpa.xml
+    에이빙걸: http://feeds.feedburner.com/AVING_Girl.xml
+    업계동향: http://www.aving.net/rss/industry.xml
+    English: http://www.aving.net/rss/english.xml
+    Chinese: http://aving.com.cn/?feed=rss2
+    Korean: http://www.aving.net/rss/korean.xml
+    German: http://www.aving.net/rss/german.xml
+    Japanese: http://www.aving.net/rss/japanese.xml
+- sourceName: 오마이뉴스
+  shortName: 오마이뉴스
+  homePage: http://www.ohmynews.com
+  description: ''
+  categories:
+  - news
+  rssList: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
+  favicon: http://www.ohmynews.com/favicon.ico
+  rssChannels:
+    전체기사: http://rss.ohmynews.com/rss/ohmynews.xml
+    주요기사: http://rss.ohmynews.com/rss/top.xml
+    오늘의사진: http://rss.ohmynews.com/rss/todayphoto.xml
+    사는이야기: http://rss.ohmynews.com/rss/life.xml
+    사회: http://rss.ohmynews.com/rss/society.xml
+    문화: http://rss.ohmynews.com/rss/culture.xml
+    정치: http://rss.ohmynews.com/rss/politics.xml
+    경제: http://rss.ohmynews.com/rss/economy.xml
+    민족·국제: http://rss.ohmynews.com/rss/international.xml
+    교육: http://rss.ohmynews.com/rss/education.xml
+    미디어: http://rss.ohmynews.com/rss/media.xml
+    여행: http://rss.ohmynews.com/rss/travel.xml
+    책동네: http://rss.ohmynews.com/rss/book.xml
+    여성: http://rss.ohmynews.com/rss/woman.xml
+    광주전라: http://rss.ohmynews.com/rss/jeolla.xml
+    부산경남: http://rss.ohmynews.com/rss/gyeongnam.xml
+    대전충청: http://rss.ohmynews.com/rss/chungnam.xml
+    인천경기: http://rss.ohmynews.com/rss/gyeonggi.xml
+    대구경북: http://rss.ohmynews.com/rss/kyungbuk.xml
+    강원제주: http://rss.ohmynews.com/rss/gangwonjeju.xml
+    해외리포트: http://rss.ohmynews.com/rss/ab_reporter.xml
+    만화만평: http://rss.ohmynews.com/rss/cartoon.xml
+- sourceName: 오마이스타
+  shortName: 오마이스타
+  homePage: http://www.ohmynews.com
+  description: ''
+  categories:
+  - news
+  rssList: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
+  favicon: http://www.ohmynews.com/favicon.ico
+  rssChannels:
+    전체기사: http://rss.ohmynews.com/rss/star.xml
+    주요기사: http://rss.ohmynews.com/rss/startop.xml
+    스포츠: http://rss.ohmynews.com/rss/sports.xml
+- sourceName: 오마이TV
+  shortName: 오마이TV
+  homePage: http://www.ohmynews.com
+  description: ''
+  categories:
+  - news
+  rssList: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
+  favicon: http://www.ohmynews.com/favicon.ico
+  rssChannels:
+    최진기의 인문학 특강: http://rss.ohmynews.com/rss/podcast_cjk_online_main.xml
+    오마이스쿨 온라인 강좌: http://rss.ohmynews.com/rss/podcast_full_online_main.xml
+    오마이TV 저자와의 대화: http://rss.ohmynews.com/rss/podcast_authortalk_main.xml
+    이슈 털어주는 남자: http://rss.ohmynews.com/RSS/podcast_etul_main.xml
+    이털남 시즌3: http://rss.ohmynews.com/RSS/podcast_etul3_main.xml
+- sourceName: 이데일리
+  shortName: 이데일리
+  homePage: https://www.edaily.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.edaily.co.kr/
+  favicon: https://www.edaily.co.kr/v2/images/favicon.ico
+  rssChannels:
+    전체뉴스: http://rss.edaily.co.kr/edaily_news.xml
+- sourceName: 전자신문
+  shortName: 전자신문
+  homePage: https://www.etnews.com
+  description: ''
+  categories:
+  - news
+  rssList: https://www.etnews.com/rss/
+  favicon: https://www.etnews.com/favicon.ico
+  rssChannels:
+    오늘의 뉴스: http://rss.etnews.com/Section901.xml
+    뉴스속보: http://rss.etnews.com/Section902.xml
+    오늘의 인기기사: http://rss.etnews.com/Section903.xml
+    오늘의 추천기사: http://rss.etnews.com/Section904.xml
+    경제·금융: http://rss.etnews.com/02.xml
+    증권: http://rss.etnews.com/02021.xml
+    경제: http://rss.etnews.com/02024.xml
+    금융: http://rss.etnews.com/02027.xml
+    특허: http://rss.etnews.com/02022.xml
+    전자·모빌리티: http://rss.etnews.com/17.xml
+    전자산업: http://rss.etnews.com/17063.xml
+    모빌리티: http://rss.etnews.com/17066.xml
+    통신·미디어·게임: http://rss.etnews.com/03.xml
+    통신: http://rss.etnews.com/03033.xml
+    방송: http://rss.etnews.com/03025.xml
+    네트워크: http://rss.etnews.com/03225.xml
+    게임: http://rss.etnews.com/03104.xml
+    콘텐츠: http://rss.etnews.com/03102.xml
+    소재·부품: http://rss.etnews.com/06.xml
+    소재: http://rss.etnews.com/06064.xml
+    부품: http://rss.etnews.com/06062.xml
+    장비: http://rss.etnews.com/06061.xml
+    SW·보안: http://rss.etnews.com/04.xml
+    SW: http://rss.etnews.com/04043.xml
+    SW교육: http://rss.etnews.com/04044.xml
+    보안: http://rss.etnews.com/04045.xml
+    산업·에너지·환경: http://rss.etnews.com/20.xml
+    과학: http://rss.etnews.com/20020.xml
+    에너지: http://rss.etnews.com/20065.xml
+    플랫폼·유통: http://rss.etnews.com/60.xml
+    유통: http://rss.etnews.com/60068.xml
+    기업: http://rss.etnews.com/60028.xml
+    벤처·바이오: http://rss.etnews.com/16.xml
+    의료바이오: http://rss.etnews.com/16042.xml
+    중기/벤처: http://rss.etnews.com/16069.xml
+    정책/정치/교육: http://rss.etnews.com/16.xml
+    정책: http://rss.etnews.com/22210.xml
+    정치: http://rss.etnews.com/22220.xml
+    교육: http://rss.etnews.com/22230.xml
+    전국: http://rss.etnews.com/25.xml
+    국제: http://rss.etnews.com/12.xml
+    오피니언: http://rss.etnews.com/11.xml
+    열린마당: http://rss.etnews.com/11011.xml
+- sourceName: jtbc 뉴스
+  shortName: jtbc 뉴스
+  homePage: https://news.jtbc.joins.com
+  description: ''
+  categories:
+  - news
+  rssList: https://news.jtbc.joins.com/Etc/RssService.aspx
+  favicon: https://images.jtbc.joins.com/ui_mobile/app_icon/favicon-32x32.png
+  rssChannels:
+    속보: https://fs.jtbc.joins.com/RSS/newsflash.xml
+    정치: https://fs.jtbc.joins.com/RSS/politics.xml
+    경제: https://fs.jtbc.joins.com/RSS/economy.xml
+    사회: https://fs.jtbc.joins.com/RSS/society.xml
+    국제: https://fs.jtbc.joins.com/RSS/international.xml
+    문화: https://fs.jtbc.joins.com/RSS/culture.xml
+    연예: https://fs.jtbc.joins.com/RSS/entertainment.xml
+    스포츠: https://fs.jtbc.joins.com/RSS/sports.xml
+    풀영상: https://fs.jtbc.joins.com/RSS/fullvideo.xml
+    뉴스랭킹: https://fs.jtbc.joins.com/RSS/newsrank.xml
+    뉴스룸: https://fs.jtbc.joins.com/RSS/newsroom.xml
+    아침&: https://fs.jtbc.joins.com/RSS/morningand.xml
+    썰전 라이브: https://fs.jtbc.joins.com/RSS/ssulzunlive.xml
+    정치부회의: https://fs.jtbc.joins.com/RSS/politicaldesk.xml
+- sourceName: 조선닷컴
+  shortName: 조선닷컴
+  homePage: https://www.chosun.com
+  description: ''
+  categories:
+  - news
+  rssList: https://rssplus.chosun.com/
+  favicon: https://www.chosun.com/favicon.ico
+  rssChannels:
+    전체기사: https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml
+    정치: https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml
+    경제: https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml
+    사회: https://www.chosun.com/arc/outboundfeeds/rss/category/national/?outputType=xml
+    국제: https://www.chosun.com/arc/outboundfeeds/rss/category/international/?outputType=xml
+    문화/라이프: https://www.chosun.com/arc/outboundfeeds/rss/category/culture-life/?outputType=xml
+    오피니언: https://www.chosun.com/arc/outboundfeeds/rss/category/opinion/?outputType=xml
+    스포츠: https://www.chosun.com/arc/outboundfeeds/rss/category/sports/?outputType=xml
+    연예: https://www.chosun.com/arc/outboundfeeds/rss/category/entertainments/?outputType=xml
+    영문 조선: http://english.chosun.com/site/data/rss/rss.xml
+- sourceName: 중앙일보
+  shortName: 중앙일보
+  homePage: https://www.joongang.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://rss.joins.com/
+  favicon: https://www.joongang.co.kr/favicon.ico
+  rssChannels:
+    전체기사: https://rss.joins.com/joins_news_list.xml
+    주요기사: https://rss.joins.com/joins_homenews_list.xml
+    경제: https://rss.joins.com/joins_money_list.xml
+    사회: https://rss.joins.com/joins_life_list.xml
+    정치: https://rss.joins.com/joins_politics_list.xml
+    지구촌: https://rss.joins.com/joins_world_list.xml
+    문화: https://rss.joins.com/joins_culture_list.xml
+    IT과학: https://rss.joins.com/joins_it_list.xml
+    중앙데일리: https://koreajoongangdaily.joins.com/xmls/joins
+    스포츠전체: https://rss.joins.com/joins_sports_list.xml
+    연예전체: https://rss.joins.com/joins_star_list.xml
+- sourceName: 지피코리아
+  shortName: 지피코리아
+  homePage: http://www.gpkorea.com/
+  description: ''
+  categories:
+  - news
+  rssList: http://www.gpkorea.com/rss/
+  favicon: http://www.gpkorea.com/image/logo/favicon_20180330110946.ico
+  rssChannels:
+    전체기사: http://www.gpkorea.com/rss/allArticle.xml
+    인기기사: http://www.gpkorea.com/rss/clickTop.xml
+    자동차뉴스: http://www.gpkorea.com/rss/S1N1.xml
+    모터스포츠: http://www.gpkorea.com/rss/S1N2.xml
+    테마기획: http://www.gpkorea.com/rss/S1N3.xml
+    시승기: http://www.gpkorea.com/rss/S1N4.xml
+    영상뉴스: http://www.gpkorea.com/rss/S1N5.xml
+- sourceName: 파이낸셜 뉴스
+  shortName: 파이낸셜 뉴스
+  homePage: https://www.fnnews.com
+  description: ''
+  categories:
+  - news
+  rssList: https://www.fnnews.com/rss
+  favicon: https://www.fnnews.com/resources/images/icon2020/favicon_16x16_j4i_icon.ico
+  rssChannels:
+    전체기사: https://www.fnnews.com/rss/r20/fn_realnews_all.xml
+    정치: https://www.fnnews.com/rss/r20/fn_realnews_politics.xml
+    국제: https://www.fnnews.com/rss/r20/fn_realnews_international.xml
+    사회: https://www.fnnews.com/rss/r20/fn_realnews_society.xml
+    교육: https://www.fnnews.com/rss/r20/fn_realnews_edu.xml
+    피플: https://www.fnnews.com/rss/r20/fn_realnews_people.xml
+    경제: https://www.fnnews.com/rss/r20/fn_realnews_economy.xml
+    증권: https://www.fnnews.com/rss/r20/fn_realnews_stock.xml
+    금융: https://www.fnnews.com/rss/r20/fn_realnews_finance.xml
+    부동산: https://www.fnnews.com/rss/r20/fn_realnews_realestate.xml
+    산업: https://www.fnnews.com/rss/r20/fn_realnews_industry.xml
+    IT: https://www.fnnews.com/rss/r20/fn_realnews_it.xml
+    의학·과학: https://www.fnnews.com/rss/r20/fn_realnews_medical.xml
+    생활경제: https://www.fnnews.com/rss/r20/fn_realnews_circulation.xml
+    사설·칼럼: https://www.fnnews.com/rss/r20/fn_realnews_column.xml
+    외부칼럼: https://www.fnnews.com/rss/r20/fn_realnews_outcolumn.xml
+    연예: https://www.fnnews.com/rss/r20/fn_realnews_ent.xml
+    스포츠: https://www.fnnews.com/rss/r20/fn_realnews_sports.xml'
+    패션/뷰티: https://www.fnnews.com/rss/r20/fn_realnews_fasion.xml
+    푸드·리빙: https://www.fnnews.com/rss/r20/fn_realnews_living.xml
+    레저·헬스: https://www.fnnews.com/rss/r20/fn_realnews_health.xml
+    자동차: https://www.fnnews.com/rss/r20/fn_realnews_car.xml
+    문화: https://www.fnnews.com/rss/r20/fn_realnews_culture.xml
+    블록포스트: https://www.fnnews.com/rss/r20/fn_realnews_blockpost.xml
+- sourceName: 팝코넷
+  shortName: 팝코넷
+  homePage: https://www.popco.net/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.popco.net/
+  favicon: https://www.popco.net/favicon.ico
+  rssChannels:
+    뉴스: https://www.popco.net/rss/news_rss.php
+- sourceName: 프레시안
+  shortName: 프레시안
+  homePage: https://www.pressian.com/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.pressian.com/rss
+  favicon: https://cdn.pressian.com/pressian.ico
+  rssChannels:
+    최신 기사: http://www.pressian.com/api/v3/site/rss/news
+    뉴스: http://www.pressian.com/api/v3/site/rss/section/25
+    books: http://www.pressian.com/api/v3/site/rss/section/60
+    세계: http://www.pressian.com/api/v3/site/rss/section/65
+    정치: http://www.pressian.com/api/v3/site/rss/section/66
+    경제: http://www.pressian.com/api/v3/site/rss/section/67
+    사회: http://www.pressian.com/api/v3/site/rss/section/68
+    문화: http://www.pressian.com/api/v3/site/rss/section/69
+    스포츠: http://www.pressian.com/api/v3/site/rss/section/70
+    미디어: http://www.pressian.com/api/v3/site/rss/section/75
+- sourceName: 한국경제신문
+  shortName: 한국경제신문
+  homePage: https://hankyung.com/
+  description: ''
+  categories:
+  - news
+  rssList: https://rss.hankyung.com/
+  favicon: https://hankyung.com/favicon.ico
+  rssChannels:
+    주요뉴스: https://rss.hankyung.com/feed/headline.xml
+    경제: https://rss.hankyung.com/feed/economy.xml
+    IT: https://rss.hankyung.com/feed/it.xml
+    국제: https://rss.hankyung.com/feed/international.xml
+    생활: https://rss.hankyung.com/feed/life.xml
+    스포츠: https://rss.hankyung.com/feed/sports.xml
+    증권: https://rss.hankyung.com/feed/stock.xml
+    부동산: https://rss.hankyung.com/feed/land.xml
+    정치: https://rss.hankyung.com/feed/politics.xml
+    사회: https://rss.hankyung.com/feed/society.xml
+    오피니언: https://rss.hankyung.com/feed/opinion.xml
+    연예: https://rss.hankyung.com/feed/hei.xml   
+- sourceName: 한겨레
+  shortName: 한겨레
+  homePage: https://www.hani.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://www.hani.co.kr/arti/RSS/
+  favicon: https://www.hani.co.kr/favicon.ico
+  rssChannels:
+    전체기사: https://www.hani.co.kr/rss/
+    정치: https://www.hani.co.kr/rss/politics/
+    경제: https://www.hani.co.kr/rss/economy/
+    사회: https://www.hani.co.kr/rss/society/
+    국제: https://www.hani.co.kr/rss/international/
+    대중문화: https://www.hani.co.kr/rss/culture/
+    스포츠: https://www.hani.co.kr/rss/sports/
+    과학: https://www.hani.co.kr/rss/science/
+    사설·칼럼: https://www.hani.co.kr/rss/opinion/
+    만화만평: https://www.hani.co.kr/rss/cartoon/
+    English Edition: https://www.hani.co.kr/rss/english_edition/
+    한겨레섹션: https://www.hani.co.kr/rss/specialsection/
+    함께하는 교육: https://www.hani.co.kr/rss/education/
+    토요판: https://www.hani.co.kr/rss/saturday/
+    하니온리: https://www.hani.co.kr/rss/hanionly/
+    한겨레온리: https://www.hani.co.kr/rss/hkronly/
+    멀티하니: https://www.hani.co.kr/rss/multihani/
+    주요기사: https://www.hani.co.kr/rss/lead/
+    인기기사: https://www.hani.co.kr/rss/newsrank/
+- sourceName: 한겨레21
+  shortName: 한겨레21
+  homePage: http://h21.hani.co.kr/
+  description: ''
+  categories:
+  - news
+  rssList: https://h21.hani.co.kr/arti/RSS
+  favicon: https://h21.hani.co.kr/favicon.ico
+  rssChannels:
+    전체기사: https://h21.hani.co.kr/rss/
+    표지이야기: https://h21.hani.co.kr/rss/cover/
+    특집: https://h21.hani.co.kr/rss/special/
+    정치: https://h21.hani.co.kr/rss/politics/
+    경제: https://h21.hani.co.kr/rss/economy/
+    사회: https://h21.hani.co.kr/rss/society/
+    세계: https://h21.hani.co.kr/rss/world/
+    문화: https://h21.hani.co.kr/rss/culture/
+    멀티미디어: https://h21.hani.co.kr/rss/photo/
+    커뮤니티: https://h21.hani.co.kr/rss/reader/
+- sourceName: Reddit
+  shortName: Reddit
+  homePage: https://www.reddit.com/
+  description: ''
+  categories:
+  - community
+  rssList: https://www.reddit.com/wiki/rss
+  favicon: https://www.reddit.com/favicon.ico
+  rssChannels:
+    r/bangtan: https://www.reddit.com/r/bangtan/.rss
+    r/hanguk: https://www.reddit.com/r/hanguk/.rss
+    r/KDRAMA: https://www.reddit.com/r/KDRAMA/.rss
+    r/manwha: https://www.reddit.com/r/manhwa/.rss
+    r/korea: https://www.reddit.com/r/korea/.rss
+    r/Korean: https://www.reddit.com/r/Korean/.rss
+    r/KoreaRealism: https://www.reddit.com/r/KoreaRealism/.rss
+    r/koreaveriety: https://www.reddit.com/r/koreanvariety/.rss
+    r/kpop: https://www.reddit.com/r/kpop/.rss

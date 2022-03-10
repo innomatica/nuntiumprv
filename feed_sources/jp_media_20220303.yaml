@@ -1,17 +1,18 @@
 ---
 version: 1
 createdAt: '2022-03-03 12:12:00.000Z'
-locale: 'ja-JP'
 data:
-- sourceName: 朝日新聞
-  shortName: 朝日新聞
-  homePage: https://www.asahi.com
+- title: 朝日新聞
+  nickname: 朝日新聞
+  website: https://www.asahi.com
   description: ''
-  categories:
+  language: japanese
+  keywords:
   - news
-  rssList: https://www.asahi.com/information/service/rss.html
+  - japan
+  feedlist: https://www.asahi.com/information/service/rss.html
   favicon: https://www.asahi.com/favicon.ico
-  rssChannels:
+  channels:
     デジタル速報ニュース: https://www.asahi.com/rss/asahi/newsheadlines.rdf
     社会: https://www.asahi.com/rss/asahi/national.rdf
     政治: https://www.asahi.com/rss/asahi/politics.rdf
@@ -36,25 +37,31 @@ data:
     トラベル: https://www.asahi.com/rss/asahi/travel.rdf
     環境・エネルギー: https://www.asahi.com/rss/asahi/eco.rdf
     ショッピング: https://www.asahi.com/rss/asahi/shopping.rdf
-- sourceName: Nikkei Asia
-  shortName: Nikkei Asia
-  homePage: https://asia.nikkei.com
+- title: Nikkei Asia
+  nickname: Nikkei Asia
+  website: https://asia.nikkei.com
   description: ''
-  categories:
+  language: japanese
+  keywords:
   - news
-  rssList: https://info.asia.nikkei.com/rss
+  - japan
+  - asia
+  feedlist: https://info.asia.nikkei.com/rss
   favicon: https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/a0wZqCfr/favicon_A.ico
-  rssChannels:
+  channels:
     News: https://asia.nikkei.com/rss/feed/nar
-- sourceName: NHKニュース
-  shortName: NHKニュース
-  homePage: http://www.nhk.or.jp/news/
+- title: NHKニュース
+  nickname: NHKニュース
+  website: http://www.nhk.or.jp/news/
   description: ''
-  categories:
+  language: japanese
+  keywords:
   - news
-  rssList: https://www.nhk.or.jp/toppage/rss/index.html
+  - japan
+  - public
+  feedlist: https://www.nhk.or.jp/toppage/rss/index.html
   favicon: https://www.nhk.or.jp/favicon.ico
-  rssChannels:
+  channels:
     主要ニュース: https://www.nhk.or.jp/rss/news/cat0.xml
     社会: https://www.nhk.or.jp/rss/news/cat1.xml
     科学・医療: https://www.nhk.or.jp/rss/news/cat3.xml

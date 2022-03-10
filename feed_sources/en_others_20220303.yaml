@@ -1,0 +1,171 @@
+---
+version: 1
+createdAt: '2022-03-03 12:12:00.000Z'
+locale: 'en-CA'
+data:
+- title: Reddit
+  nickname: Reddit
+  website: https://www.reddit.com/
+  description: ''
+  language: english
+  keywords:
+  - community
+  feedlist: https://www.reddit.com/wiki/rss
+  favicon: https://www.reddit.com/favicon.ico
+  channels:
+    r/pics: https://www.reddit.com/r/pics/.rss
+    r/funny: https://www.reddit.com/r/funny/.rss
+    r/politics: https://www.reddit.com/r/politics/.rss
+    r/gaming: https://www.reddit.com/r/gaming/.rss
+    r/AskReddit: https://www.reddit.com/r/AskReddit/.rss
+    r/worldnews: https://www.reddit.com/r/worldnews/.rss
+    r/news: https://www.reddit.com/r/news/.rss
+    r/videos: https://www.reddit.com/r/videos/.rss
+    r/IAmA: https://www.reddit.com/r/IAmA/.rss
+    r/todayilearned: https://www.reddit.com/r/todayilearned/.rss
+    r/WTF: https://www.reddit.com/r/WTF/.rss
+    r/aww: https://www.reddit.com/r/aww/.rss
+    r/atheism: https://www.reddit.com/r/atheism/.rss
+    r/technology: https://www.reddit.com/r/technology/.rss
+    r/AdviceAnimals: https://www.reddit.com/r/AdviceAnimals/.rss
+    r/science: https://www.reddit.com/r/science/.rss
+    r/Music: https://www.reddit.com/r/Music/.rss
+    r/movies: https://www.reddit.com/r/movies/.rss
+    r/bestof: https://www.reddit.com/r/bestof/.rss
+    r/leagueoflegends: https://www.reddit.com/r/leagueoflegends/.rss
+    r/cringepics: https://www.reddit.com/r/cringepics/.rss
+    r/trees: https://www.reddit.com/r/trees/.rss
+    r/gifs: https://www.reddit.com/r/gifs/.rss
+    r/pokemon: https://www.reddit.com/r/pokemon/.rss
+    r/reactiongifs: https://www.reddit.com/r/reactiongifs/.rss
+    r/Minecraft: https://www.reddit.com/r/Minecraft/.rss
+    r/mildlyinteresting: https://www.reddit.com/r/mildlyinteresting/.rss
+    r/fffffffuuuuuuuuuuuu: https://www.reddit.com/r/fffffffuuuuuuuuuuuu/.rss
+    r/4chan: https://www.reddit.com/r/4chan/.rss
+    r/ImGoingToHellForThis: https://www.reddit.com/r/ImGoingToHellForThis/.rss
+    r/starcraft: https://www.reddit.com/r/starcraft/.rss
+    r/woahdude: https://www.reddit.com/r/woahdude/.rss
+    r/MakeupAddiction: https://www.reddit.com/r/MakeupAddiction/.rss
+    r/arresteddevelopment: https://www.reddit.com/r/arresteddevelopment/.rss
+    r/Games: https://www.reddit.com/r/Games/.rss
+    r/circlejerk: https://www.reddit.com/r/circlejerk/.rss
+    r/DotA2: https://www.reddit.com/r/DotA2/.rss
+    r/gameofthrones: https://www.reddit.com/r/gameofthrones/.rss
+    r/cats: https://www.reddit.com/r/cats/.rss
+    r/nba: https://www.reddit.com/r/nba/.rss
+    r/doctorwho: https://www.reddit.com/r/doctorwho/.rss
+    r/MURICA: https://www.reddit.com/r/MURICA/.rss
+    r/firstworldanarchists: https://www.reddit.com/r/firstworldanarchists/.rss
+    r/soccer: https://www.reddit.com/r/soccer/.rss
+    r/canada: https://www.reddit.com/r/canada/.rss
+    r/ottawa: https://www.reddit.com/r/ottawa/.rss
+    r/montreal: https://www.reddit.com/r/montreal/.rss
+    r/toronto: https://www.reddit.com/r/toronto/.rss
+- title: WIRED
+  nickname: WIRED
+  website: https://www.wired.com
+  description: ''
+  language: english
+  keywords:
+  - magazine
+  feedlist: https://www.wired.com/about/rss-feeds/
+  favicon: https://www.wired.com/favicon.ico
+  channels:
+    Business: https://www.wired.com/feed/category/business/latest/rss
+    Artificial Intelligence: https://www.wired.com/feed/tag/ai/latest/rss
+    Culture: https://www.wired.com/feed/category/culture/latest/rss
+    Gear: https://www.wired.com/feed/category/gear/latest/rss
+    Ideas: https://www.wired.com/feed/category/ideas/latest/rss
+    Science: https://www.wired.com/feed/category/science/latest/rss
+    Security: https://www.wired.com/feed/category/security/latest/rss
+    Backchannel: https://www.wired.com/feed/category/backchannel/latest/rss
+    Guides: https://www.wired.com/feed/tag/wired-guide/latest/rss
+- title: Gizmodo
+  nickname: Gizmodo
+  website: https://gizmodo.com/
+  description: ''
+  language: english
+  keywords:
+  - magazine
+  - it
+  feedlist: https://gizmodo.com/
+  favicon: https://gizmodo.com/favicon.ico
+  channels:
+    News: https://gizmodo.com/rss
+- title: Phys.org
+  nickname: Phys.org
+  website: https://phys.org/
+  description: ''
+  language: english
+  keywords:
+  - journal
+  - science
+  - physics
+  feedlist: https://phys.org/feeds/
+  favicon: https://phys.org/favicon.ico
+  channels:
+    All News: https://phys.org/rss-feed/
+    Earth: https://phys.org/rss-feed/earth-news/
+    Other Sciences: https://phys.org/rss-feed/science-news/
+    Nanotechnology: https://phys.org/rss-feed/nanotech-news/
+    Physics: https://phys.org/rss-feed/physics-news/
+    Astronomy & Space: https://phys.org/rss-feed/space-news/
+    Biology: https://phys.org/rss-feed/biology-news/
+    Chemistry: https://phys.org/rss-feed/chemistry-news/
+- title: New Scientist
+  nickname: New Scientist
+  website: https://www.newscientist.com/
+  description: ''
+  language: english
+  keywords:
+  - journal
+  - science
+  feedlist: https://www.newscientist.com/rss-feeds/
+  favicon: https://www.newscientist.com/favicon.ico
+  channels:
+    All articles: https://www.newscientist.com/feed/home/
+    News: https://www.newscientist.com/section/news/feed/
+    Features: https://www.newscientist.com/section/features/feed/
+    Physics: https://www.newscientist.com/subject/physics/feed/
+    Technology: https://www.newscientist.com/subject/technology/feed/
+    Space: https://www.newscientist.com/subject/space/feed/
+    Life: https://www.newscientist.com/subject/life/feed/
+    Earth: https://www.newscientist.com/subject/earth/feed/
+    Health: https://www.newscientist.com/subject/health/feed/
+    Humans: https://www.newscientist.com/subject/humans/feed/
+- title: Hacker News
+  nickname: Hacker News
+  website: https://news.ycombinator.com/
+  description: ''
+  language: english
+  keywords:
+  - news
+  - it
+  feedlist: https://hnrss.github.io/
+  favicon: https://news.ycombinator.com/favicon.ico
+  channels:
+    Newest: https://hnrss.org/newest
+- title: Verge, The
+  nickname: TheVerge
+  website: https://www.theverge.com/
+  description: ''
+  language: english
+  keywords:
+  - magazine
+  - it
+  feedlist: https://www.theverge.com/2012/1/25/2732963/verge-rss-feeds
+  favicon: https://cdn.vox-cdn.com/uploads/chorus_asset/file/21956592/favicon-96x96.0.0.ico
+  channels:
+    All Posts: https://www.theverge.com/rss/index.xml
+    Android: http://www.theverge.com/android/rss/index.xml
+    Apple: http://www.theverge.com/apple/rss/index.xml
+    Apps & Software: http://www.theverge.com/apps/rss/index.xml
+    BlackBerry: http://www.theverge.com/blackberry/rss/index.xml
+    Culture: http://www.theverge.com/culture/rss/index.xml
+    Gaming: http://www.theverge.com/gaming/rss/index.xml
+    HD & Home: http://www.theverge.com/hd/rss/index.xml
+    Microsoft: http://www.theverge.com/microsoft/rss/index.xml
+    Mobile: http://www.theverge.com/mobile/rss/index.xml
+    Photography & Video: http://www.theverge.com/photography/rss/index.xml
+    Policy & Law: http://www.theverge.com/policy/rss/index.xml
+    Web & Social: http://www.theverge.com/web/rss/index.xml

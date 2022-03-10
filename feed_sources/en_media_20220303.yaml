@@ -1,17 +1,19 @@
 ---
 version: 1
 createdAt: '2022-03-03 12:12:00.000Z'
-locale: 'en-CA'
 data:
-- sourceName: BBC News
-  shortName: BBC News
-  homePage: https://bbc.co.uk/news
+- title: BBC News
+  nickname: BBC News
+  website: https://bbc.co.uk/news
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.bbc.co.uk/news/10628494
+  - uk
+  - public
+  feedlist: https://www.bbc.co.uk/news/10628494
   favicon: https://bbc.co.uk/favicon.ico
-  rssChannels:
+  channels:
     Top Stories: http://feeds.bbci.co.uk/news/rss.xml
     World: http://feeds.bbci.co.uk/news/world/rss.xml
     UK: http://feeds.bbci.co.uk/news/uk/rss.xml
@@ -40,15 +42,18 @@ data:
     Have your say: http://feeds.bbci.co.uk/news/have_your_say/rss.xml
     Editors Blog: https://www.bbc.co.uk/blogs/theeditors/rss.xml
     BBC Sport feeds: https://news.bbc.co.uk/sport1/hi/help/rss/default.stm
-- sourceName: CBC News
-  shortName: CBC News
-  homePage: https://www.cbc.ca
+- title: CBC News
+  nickname: CBC News
+  website: https://www.cbc.ca
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.cbc.ca/rss/
+  - canada
+  - public
+  feedlist: https://www.cbc.ca/rss/
   favicon: https://www.cbc.ca/favicon.ico
-  rssChannels:
+  channels:
     Top Stories: https://rss.cbc.ca/lineup/topstories.xml
     World: https://rss.cbc.ca/lineup/world.xml
     Canada: https://rss.cbc.ca/lineup/canada.xml
@@ -89,15 +94,17 @@ data:
     Newfoundland & Labrador: https://rss.cbc.ca/lineup/canada-newfoundland.xml
     North: https://rss.cbc.ca/lineup/canada-north.xml
     The National - In Depth Reports: https://rss.cbc.ca/lineup/thenational.xml
-- sourceName: CNBC News
-  shortName: CNBC News
-  homePage: https://www.cnbc.com
+- title: CNBC News
+  nickname: CNBC News
+  website: https://www.cnbc.com
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.cnbc.com/rss-feeds/
+  - usa
+  feedlist: https://www.cnbc.com/rss-feeds/
   favicon: https://www.cnbc.com/favicon.ico
-  rssChannels:
+  channels:
     Top News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114
     World News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100727362
     US News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15837362
@@ -119,15 +126,17 @@ data:
     Retail: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000116
     Travel: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000739
     Small Business: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=44877279
-- sourceName: CNN News
-  shortName: CNN News
-  homePage: https://www.cnn.com/
+- title: CNN News
+  nickname: CNN News
+  website: https://www.cnn.com/
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.cnn.com/services/rss/
+  - usa
+  feedlist: https://www.cnn.com/services/rss/
   favicon: https://www.cnn.com/favicon.ico
-  rssChannels:
+  channels:
     Top Stories: http://rss.cnn.com/rss/cnn_topstories.rss
     World: http://rss.cnn.com/rss/cnn_world.rss
     U.S.: http://rss.cnn.com/rss/cnn_us.rss
@@ -141,13 +150,17 @@ data:
     CNN 10: http://rss.cnn.com/services/podcasting/cnn10/rss.xml
     Most Recent: http://rss.cnn.com/rss/cnn_latest.rss
     CNN Underscored: http://rss.cnn.com/cnn-underscored
-- sourceName: CNN Money
-  shortName: CNN Money
-  homePage: https://money.cnn.com
+- title: CNN Money
+  nickname: CNN Money
+  website: https://money.cnn.com
   description: ''
-  rssList: https://money.cnn.com/services/rss/
+  language: english
+  keywords:
+  - news
+  - business
+  feedlist: https://money.cnn.com/services/rss/
   favicon: https://money.cnn.com/favicon.ico
-  rssChannels:
+  channels:
     All Stories: http://rss.cnn.com/rss/money_latest.rss
     Top Stories: http://rss.cnn.com/rss/money_topstories.rss
     Most Popular: http://rss.cnn.com/rss/money_mostpopular.rss
@@ -170,15 +183,17 @@ data:
     Real Estate: http://rss.cnn.com/rss/money_realestate.rss
     Luxury: http://rss.cnn.com/rss/money_luxury.rss
     Small Business: http://rss.cnn.com/rss/money_smbusiness.rss
-- sourceName: Guardian, The
-  shortName: Guardian
-  homePage: https://www.theguardian.com
+- title: Guardian, The
+  nickname: Guardian
+  website: https://www.theguardian.com
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.theguardian.com/help/feeds
+  - uk
+  feedlist: https://www.theguardian.com/help/feeds
   favicon: https://www.theguardian.com/favicon.ico
-  rssChannels:
+  channels:
     World: https://www.theguardian.com/world/rss
     Europe: https://www.theguardian.com/world/europe-news/rss
     US: https://www.theguardian.com/us-news/rss
@@ -189,15 +204,17 @@ data:
     Africa: https://www.theguardian.com/world/africa/rss
     Inequality: https://www.theguardian.com/inequality/rss
     Glolbal Development: https://www.theguardian.com/global-development/rss
-- sourceName: New York Times, The
-  shortName: NY Times
-  homePage: https://www.nytimes.com
+- title: New York Times, The
+  nickname: NY Times
+  website: https://www.nytimes.com
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.nytimes.com/rss
+  - usa
+  feedlist: https://www.nytimes.com/rss
   favicon: https://www.nytimes.com/favicon.ico
-  rssChannels:
+  channels:
     World: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
     Africa: https://rss.nytimes.com/services/xml/rss/nyt/Africa.xml
     Americas: https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml
@@ -248,15 +265,17 @@ data:
     T Magazine: https://rss.nytimes.com/services/xml/rss/nyt/tmagazine.xml
     Travel: https://www.nytimes.com/services/xml/rss/nyt/Travel.xml
     Sunday Review: https://rss.nytimes.com/services/xml/rss/nyt/sunday-review.xml
-- sourceName: Market Watch
-  shortName: Market Watch
-  homePage: https://www.marketwatch.com
+- title: Market Watch
+  nickname: Market Watch
+  website: https://www.marketwatch.com
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.marketwatch.com/rss/
+  - business
+  feedlist: https://www.marketwatch.com/rss/
   favicon: https://www.marketwatch.com/favicon.ico
-  rssChannels:
+  channels:
     Top Stories: http://www.marketwatch.com/rss/topstories
     Real-time headlines: http://www.marketwatch.com/rss/realtimeheadlines
     MarketPulse: http://www.marketwatch.com/rss/marketpulse
@@ -271,15 +290,18 @@ data:
     Commentary: http://www.marketwatch.com/rss/commentary
     Newsletters & Research: http://www.marketwatch.com/rss/newslettersandresearch
     Automotive Reviews: http://www.marketwatch.com/rss/Autoreviews
-- sourceName: PBS NewsHour
-  shortName: PBS NewsHour
-  homePage: https://www.pbs.org/
+- title: PBS NewsHour
+  nickname: PBS NewsHour
+  website: https://www.pbs.org/
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.pbs.org/newshour/subscribe#rss-feeds
+  - usa
+  - public
+  feedlist: https://www.pbs.org/newshour/subscribe#rss-feeds
   favicon: https://www.pbs.org/favicon.ico
-  rssChannels:
+  channels:
     The Latest: https://www.pbs.org/newshour/feeds/rss/headlines
     Politics: https://www.pbs.org/newshour/feeds/rss/politics
     Arts: https://www.pbs.org/newshour/feeds/rss/arts
@@ -291,15 +313,18 @@ data:
     Education: https://www.pbs.org/newshour/feeds/rss/education
     Agents for Change: https://www.pbs.org/newshour/feeds/rss/agents-for-change
     American Graduate: https://www.pbs.org/newshour/feeds/rss/american-graduate
-- sourceName: South China Morning Post
-  shortName: SCMP
-  homePage: https://www.scmp.com/
+- title: South China Morning Post
+  nickname: SCMP
+  website: https://www.scmp.com/
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.scmp.com/rss
+  - hong kong
+  - china
+  feedlist: https://www.scmp.com/rss
   favicon: https://www.scmp.com/favicon.ico
-  rssChannels:
+  channels:
     News: https://www.scmp.com/rss/91/feed
     News - Hong Kong: https://www.scmp.com/rss/2/feed
     News - China: https://www.scmp.com/rss/4/feed
@@ -405,172 +430,34 @@ data:
     Abacus - Who is & what is: https://www.scmp.com/rss/506039/feed
     Abacus - News bites: https://www.scmp.com/rss/506042/feed
     SCMP cooking: https://www.scmp.com/rss/502060/feed
-- sourceName: Wall Street Journal, The
-  shortName: WSJ
-  homePage: https://www.wsj.com
+- title: Wall Street Journal, The
+  nickname: WSJ
+  website: https://www.wsj.com
   description: ''
-  categories:
+  language: english
+  keywords:
   - news
-  rssList: https://www.wsj.com/news/rss-news-and-feeds
+  - business
+  - usa
+  feedlist: https://www.wsj.com/news/rss-news-and-feeds
   favicon: https://www.wsj.com/favicon.ico
-  rssChannels:
+  channels:
     Opinion: https://feeds.a.dj.com/rss/RSSOpinion.xml
     World News: https://feeds.a.dj.com/rss/RSSWorldNews.xml
     US Business: https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml
     Market News: https://feeds.a.dj.com/rss/RSSMarketsMain.xml
     Technology: https://feeds.a.dj.com/rss/RSSWSJD.xml
     Lifestyle: https://feeds.a.dj.com/rss/RSSLifestyle.xml
-- sourceName: WIRED
-  shortName: WIRED
-  homePage: https://www.wired.com
+- title: Newswire
+  nickname: Newswire
+  website: https://www.newswire.com/
   description: ''
-  categories:
-  - news
-  rssList: https://www.wired.com/about/rss-feeds/
-  favicon: https://www.wired.com/favicon.ico
-  rssChannels:
-    Business: https://www.wired.com/feed/category/business/latest/rss
-    Artificial Intelligence: https://www.wired.com/feed/tag/ai/latest/rss
-    Culture: https://www.wired.com/feed/category/culture/latest/rss
-    Gear: https://www.wired.com/feed/category/gear/latest/rss
-    Ideas: https://www.wired.com/feed/category/ideas/latest/rss
-    Science: https://www.wired.com/feed/category/science/latest/rss
-    Security: https://www.wired.com/feed/category/security/latest/rss
-    Backchannel: https://www.wired.com/feed/category/backchannel/latest/rss
-    Guides: https://www.wired.com/feed/tag/wired-guide/latest/rss
-- sourceName: Gizmodo
-  shortName: Gizmodo
-  homePage: https://gizmodo.com/
-  description: ''
-  categories:
-  - journal
-  rssList: https://gizmodo.com/
-  favicon: https://gizmodo.com/favicon.ico
-  rssChannels:
-    News: https://gizmodo.com/rss
-- sourceName: Phys.org
-  shortName: Phys.org
-  homePage: https://phys.org/
-  description: ''
-  categories:
-  - journal
-  rssList: https://phys.org/feeds/
-  favicon: https://phys.org/favicon.ico
-  rssChannels:
-    All News: https://phys.org/rss-feed/
-    Earth: https://phys.org/rss-feed/earth-news/
-    Other Sciences: https://phys.org/rss-feed/science-news/
-    Nanotechnology: https://phys.org/rss-feed/nanotech-news/
-    Physics: https://phys.org/rss-feed/physics-news/
-    Astronomy & Space: https://phys.org/rss-feed/space-news/
-    Biology: https://phys.org/rss-feed/biology-news/
-    Chemistry: https://phys.org/rss-feed/chemistry-news/
-- sourceName: New Scientist
-  shortName: New Scientist
-  homePage: https://www.newscientist.com/
-  description: ''
-  categories:
-  - journal
-  rssList: https://www.newscientist.com/rss-feeds/
-  favicon: https://www.newscientist.com/favicon.ico
-  rssChannels:
-    All articles: https://www.newscientist.com/feed/home/
-    News: https://www.newscientist.com/section/news/feed/
-    Features: https://www.newscientist.com/section/features/feed/
-    Physics: https://www.newscientist.com/subject/physics/feed/
-    Technology: https://www.newscientist.com/subject/technology/feed/
-    Space: https://www.newscientist.com/subject/space/feed/
-    Life: https://www.newscientist.com/subject/life/feed/
-    Earth: https://www.newscientist.com/subject/earth/feed/
-    Health: https://www.newscientist.com/subject/health/feed/
-    Humans: https://www.newscientist.com/subject/humans/feed/
-- sourceName: Hacker News
-  shortName: Hacker News
-  homePage: https://news.ycombinator.com/
-  description: ''
-  categories:
-  - news
-  rssList: https://hnrss.github.io/
-  favicon: https://news.ycombinator.com/favicon.ico
-  rssChannels:
-    Newest: https://hnrss.org/newest
-- sourceName: Verge, The
-  shortName: TheVerge
-  homePage: https://www.theverge.com/
-  description: ''
-  categories:
-  - journal
-  rssList: https://www.theverge.com/2012/1/25/2732963/verge-rss-feeds
-  favicon: https://cdn.vox-cdn.com/uploads/chorus_asset/file/21956592/favicon-96x96.0.0.ico
-  rssChannels:
-    All Posts: https://www.theverge.com/rss/index.xml
-    Android: http://www.theverge.com/android/rss/index.xml
-    Apple: http://www.theverge.com/apple/rss/index.xml
-    Apps & Software: http://www.theverge.com/apps/rss/index.xml
-    BlackBerry: http://www.theverge.com/blackberry/rss/index.xml
-    Culture: http://www.theverge.com/culture/rss/index.xml
-    Gaming: http://www.theverge.com/gaming/rss/index.xml
-    HD & Home: http://www.theverge.com/hd/rss/index.xml
-    Microsoft: http://www.theverge.com/microsoft/rss/index.xml
-    Mobile: http://www.theverge.com/mobile/rss/index.xml
-    Photography & Video: http://www.theverge.com/photography/rss/index.xml
-    Policy & Law: http://www.theverge.com/policy/rss/index.xml
-    Web & Social: http://www.theverge.com/web/rss/index.xml
-- sourceName: Reddit
-  shortName: Reddit
-  homePage: https://www.reddit.com/
-  description: ''
-  categories:
-  - community
-  rssList: https://www.reddit.com/wiki/rss
-  favicon: https://www.reddit.com/favicon.ico
-  rssChannels:
-    r/pics: https://www.reddit.com/r/pics/.rss
-    r/funny: https://www.reddit.com/r/funny/.rss
-    r/politics: https://www.reddit.com/r/politics/.rss
-    r/gaming: https://www.reddit.com/r/gaming/.rss
-    r/AskReddit: https://www.reddit.com/r/AskReddit/.rss
-    r/worldnews: https://www.reddit.com/r/worldnews/.rss
-    r/news: https://www.reddit.com/r/news/.rss
-    r/videos: https://www.reddit.com/r/videos/.rss
-    r/IAmA: https://www.reddit.com/r/IAmA/.rss
-    r/todayilearned: https://www.reddit.com/r/todayilearned/.rss
-    r/WTF: https://www.reddit.com/r/WTF/.rss
-    r/aww: https://www.reddit.com/r/aww/.rss
-    r/atheism: https://www.reddit.com/r/atheism/.rss
-    r/technology: https://www.reddit.com/r/technology/.rss
-    r/AdviceAnimals: https://www.reddit.com/r/AdviceAnimals/.rss
-    r/science: https://www.reddit.com/r/science/.rss
-    r/Music: https://www.reddit.com/r/Music/.rss
-    r/movies: https://www.reddit.com/r/movies/.rss
-    r/bestof: https://www.reddit.com/r/bestof/.rss
-    r/leagueoflegends: https://www.reddit.com/r/leagueoflegends/.rss
-    r/cringepics: https://www.reddit.com/r/cringepics/.rss
-    r/trees: https://www.reddit.com/r/trees/.rss
-    r/gifs: https://www.reddit.com/r/gifs/.rss
-    r/pokemon: https://www.reddit.com/r/pokemon/.rss
-    r/reactiongifs: https://www.reddit.com/r/reactiongifs/.rss
-    r/Minecraft: https://www.reddit.com/r/Minecraft/.rss
-    r/mildlyinteresting: https://www.reddit.com/r/mildlyinteresting/.rss
-    r/fffffffuuuuuuuuuuuu: https://www.reddit.com/r/fffffffuuuuuuuuuuuu/.rss
-    r/4chan: https://www.reddit.com/r/4chan/.rss
-    r/ImGoingToHellForThis: https://www.reddit.com/r/ImGoingToHellForThis/.rss
-    r/starcraft: https://www.reddit.com/r/starcraft/.rss
-    r/woahdude: https://www.reddit.com/r/woahdude/.rss
-    r/MakeupAddiction: https://www.reddit.com/r/MakeupAddiction/.rss
-    r/arresteddevelopment: https://www.reddit.com/r/arresteddevelopment/.rss
-    r/Games: https://www.reddit.com/r/Games/.rss
-    r/circlejerk: https://www.reddit.com/r/circlejerk/.rss
-    r/DotA2: https://www.reddit.com/r/DotA2/.rss
-    r/gameofthrones: https://www.reddit.com/r/gameofthrones/.rss
-    r/cats: https://www.reddit.com/r/cats/.rss
-    r/nba: https://www.reddit.com/r/nba/.rss
-    r/doctorwho: https://www.reddit.com/r/doctorwho/.rss
-    r/MURICA: https://www.reddit.com/r/MURICA/.rss
-    r/firstworldanarchists: https://www.reddit.com/r/firstworldanarchists/.rss
-    r/soccer: https://www.reddit.com/r/soccer/.rss
-    r/canada: https://www.reddit.com/r/canada/.rss
-    r/ottawa: https://www.reddit.com/r/ottawa/.rss
-    r/montreal: https://www.reddit.com/r/montreal/.rss
-    r/toronto: https://www.reddit.com/r/toronto/.rss
-
+  language: english
+  keywords:
+  - press release
+  feedlist: https://www.newswire.com/feeds
+  favicon: https://www.newswire.com/favicon.ico
+  channels:
+    Premium Press Release: https://www.newswire.com/newsroom/rss/custom/premium-press-releases
+    Latest Press Release: https://www.newswire.com/newsroom/rss/custom/all-press-releases
+    Arts and Entertainment: https://www.newswire.com/newsroom/rss/arts-and-entertainment

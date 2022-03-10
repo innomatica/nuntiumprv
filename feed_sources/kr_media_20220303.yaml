@@ -2,15 +2,16 @@
 version: 1
 createdAt: '2022-03-03 12:12:00.000Z'
 data:
-- sourceName: 경향신문
-  shortName: 경향신문
-  homePage: https://www.khan.co.kr/
+- title: 경향신문
+  nickname: 경향신문
+  website: https://www.khan.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://www.khan.co.kr/help/help_rss.html
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://www.khan.co.kr/help/help_rss.html
   favicon: https://www.khan.co.kr/favicon.ico
-  rssChannels:
+  channels:
     전체뉴스: https://www.khan.co.kr/rss/rssdata/total_news.xml
     정치: https://www.khan.co.kr/rss/rssdata/politic_news.xml
     경제: https://www.khan.co.kr/rss/rssdata/economy_news.xml
@@ -23,44 +24,16 @@ data:
     전국: https://www.khan.co.kr/rss/rssdata/local_news.xml
     인물: https://www.khan.co.kr/rss/rssdata/people_news.xml
     오피니언: https://www.khan.co.kr/rss/rssdata/opinion_news.xml
-- sourceName: 교보문고 북뉴스
-  shortName: 교보문고
-  homePage: http://news.kyobobook.co.kr/main.ink
+- title: 국민일보
+  nickname: 국민일보
+  website: http://www.kmib.co.kr/
   description: ''
-  categories:
-  - bookstore
-  rssList: http://news.kyobobook.co.kr/RSS.ink
-  favicon: https://www.kyobobook.co.kr/favicon.ico
-  rssChannels:
-    뉴스전체: http://news.kyobobook.co.kr/rssv2/booknews_all_rss.xml
-    오늘뉴스: http://news.kyobobook.co.kr/rssv2/todaynews_rss.xml
-    눈에 띄는 책: http://news.kyobobook.co.kr/rssv2/eyebook_rss.xml
-    기획특집: http://news.kyobobook.co.kr/rssv2/specialplus_rss.xml
-    인터뷰: http://news.kyobobook.co.kr/rssv2/interview_rss.xml
-    연재:기사 전체: http://news.kyobobook.co.kr/rssv2/publish_rss.xml
-    연재:웹툰: http://news.kyobobook.co.kr/rssv2/publish_webtoon_rss.xml
-    연재:칼럼: http://news.kyobobook.co.kr/rssv2/publish_opencolumnlist_rss.xml
-    연재:READ IT: http://news.kyobobook.co.kr/rssv2/publish_readit_rss.xml
-    연재:북챗: http://news.kyobobook.co.kr/rssv2/publish_bookchat_rss.xml
-    북TV:기사 전체: http://news.kyobobook.co.kr/rssv2/booktv_rss.xml
-    북TV:북캐스트: http://news.kyobobook.co.kr/rssv2/booktv_welcomeshow_rss.xml
-    북TV:북튜버: http://news.kyobobook.co.kr/rssv2/booktv_booktube_rss.xml
-    북TV:영상스케치: http://news.kyobobook.co.kr/rssv2/booktv_sketch_rss.xml
-    연재종료:기사 전체: http://news.kyobobook.co.kr/rssv2/publishend_rss.xml
-    연재종료:책상자: http://news.kyobobook.co.kr/rssv2/booktv_bookbox_rss.xml
-    연재종료:베스트셀러: http://news.kyobobook.co.kr/rssv2/booktv_bestseller_rss.xml
-    연재종료:북트레일러: http://news.kyobobook.co.kr/rssv2/booktv_booktrailer_rss.xml
-    연재종료:북토리언: http://news.kyobobook.co.kr/rssv2/publish_booktorianlist_rss.xml
-    연재종료:소설: http://news.kyobobook.co.kr/rssv2/publish_novel_rss.xml
-- sourceName: 국민일보
-  shortName: 국민일보
-  homePage: http://www.kmib.co.kr/
-  description: ''
-  categories:
-  - news
-  rssList: http://rss.kmib.co.kr/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: http://rss.kmib.co.kr/
   favicon: http://www.kmib.co.kr/images/cmn/favicon.ico
-  rssChannels:
+  channels:
     전체기사: http://rss.kmib.co.kr/data/kmibRssAll.xml
     정치: http://rss.kmib.co.kr/data/kmibPolRss.xml
     경제: http://rss.kmib.co.kr/data/kmibEcoRss.xml
@@ -74,15 +47,16 @@ data:
     겨자씨: http://rss.kmib.co.kr/data/kmibSeedRss.xml
     역경의 열매: http://rss.kmib.co.kr/data/kmibAdvRss.xml
     가정예배: http://rss.kmib.co.kr/data/kmibWorRss.xml
-- sourceName: 뉴스와이어
-  shortName: 뉴스와이어
-  homePage: https://www.newswire.co.kr
-  description: 뉴스와이어는 기업이 언론에 보도자료를 쉽게 배포할 수 있도록 해주는 보도자료 배포 서비스입니다
-  categories:
-  - press release
-  rssList: https://www.newswire.co.kr/?md=A31
+- title: 뉴스와이어
+  nickname: 뉴스와이어
+  website: https://www.newswire.co.kr
+  description: ''
+  language: korean
+  keywords:
+  - 보도자료
+  feedlist: https://www.newswire.co.kr/?md=A31
   favicon: https://www.newswire.co.kr/favicon.ico
-  rssChannels:
+  channels:
     보도자료 전체: https://api.newswire.co.kr/rss/all
     IT: https://api.newswire.co.kr/rss/industry/600
     건강: https://api.newswire.co.kr/rss/industry/1000
@@ -142,15 +116,16 @@ data:
     투자: https://api.newswire.co.kr/rss/theme/110
     판촉활동: https://api.newswire.co.kr/rss/theme/103
     행사: https://api.newswire.co.kr/rss/theme/122
-- sourceName: 노컷뉴스
-  shortName: 노컷뉴스
-  homePage: https://nocutnews.co.kr/
+- title: 노컷뉴스
+  nickname: 노컷뉴스
+  website: https://nocutnews.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://nocutnews.co.kr/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://nocutnews.co.kr/rss/
   favicon: https://nocutnews.co.kr/favicon.ico
-  rssChannels:
+  channels:
     정치: https://rss.nocutnews.co.kr/category/politics.xml
     경제: https://rss.nocutnews.co.kr/category/economy.xml
     사회: https://rss.nocutnews.co.kr/category/society.xml
@@ -178,15 +153,16 @@ data:
     제주: https://rss.nocutnews.co.kr/news/jeju.xml
     청주: https://rss.nocutnews.co.kr/news/cheongju.xml
     포항: https://rss.nocutnews.co.kr/news/pohang.xml
-- sourceName: 동아일보
-  shortName: 동아일보
-  homePage: https://www.donga.com/
+- title: 동아일보
+  nickname: 동아일보
+  website: https://www.donga.com/
   description: ''
-  categories:
-  - news
-  rssList: http://rss.donga.com/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: http://rss.donga.com/
   favicon: http://rss.donga.com/favicon.ico
-  rssChannels:
+  channels:
     전체기사: https://rss.donga.com/total.xml
     정치: https://rss.donga.com/politics.xml
     사회: https://rss.donga.com/national.xml
@@ -204,15 +180,16 @@ data:
     여성: https://rss.donga.com/woman.xml
     여행: https://rss.donga.com/travel.xml
     생활정보: https://rss.donga.com/lifeinfo.xml
-- sourceName: 대구신문
-  shortName: 대구신문
-  homePage: https://www.idaegu.co.kr
+- title: 대구신문
+  nickname: 대구신문
+  website: https://www.idaegu.co.kr
   description: ''
-  categories:
-  - news
-  rssList: https://www.idaegu.co.kr/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://www.idaegu.co.kr/rss/
   favicon: https://www.idaegu.co.kr/image/logo/favicon_20180618095934.ico
-  rssChannels:
+  channels:
     전체기사: https://www.idaegu.co.kr/rss/allArticle.xml
     인기기사: https://www.idaegu.co.kr/rss/clickTop.xml
     정치: https://www.idaegu.co.kr/rss/S1N1.xml
@@ -228,15 +205,16 @@ data:
     독자마당: https://www.idaegu.co.kr/rss/S1N11.xml
     기획특집: https://www.idaegu.co.kr/rss/S1N12.xml
     종합: https://www.idaegu.co.kr/rss/S1N13.xml
-- sourceName: 데일리한국
-  shortName: 데일리한국
-  homePage: http://daily.hankooki.com/
+- title: 데일리한국
+  nickname: 데일리한국
+  website: http://daily.hankooki.com/
   description: ''
-  categories:
-  - news
-  rssList: http://rss.hankooki.com/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: http://rss.hankooki.com/
   favicon: https://cdn.daily.hankooki.com/image/logo/favicon.ico
-  rssChannels:
+  channels:
     전체: http://rss.hankooki.com/daily/dh_main.xml
     정치: http://rss.hankooki.com/daily/dh_politics.xml
     경제: http://rss.hankooki.com/daily/dh_economy.xml
@@ -251,15 +229,17 @@ data:
     멀티미디어 - 전체: https://rss.hankooki.com/eyenews/ey00_list.xml
     멀티미디어 - 포토: https://rss.hankooki.com/eyenews/eye_photo.xml
     멀티미디어 - 동영상: https://rss.hankooki.com/eyenews/eye_movie.xml
-- sourceName: 매일경제
-  shortName: 매일경제
-  homePage: https://www.mk.co.kr/
+- title: 매일경제
+  nickname: 매일경제
+  website: https://www.mk.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://www.mk.co.kr/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  - 경제
+  feedlist: https://www.mk.co.kr/rss/
   favicon: https://img.mk.co.kr/main/2015/mk_new/favicon_new.ico
-  rssChannels:
+  channels:
     헤드라인: https://www.mk.co.kr/rss/30000001/
     전체뉴스: https://www.mk.co.kr/rss/40300001/
     경제: https://www.mk.co.kr/rss/30100041/
@@ -277,15 +257,18 @@ data:
     Top Stories: https://www.mk.co.kr/rss/30800011/
     이코노미: https://www.mk.co.kr/rss/50000001/
     시티라이프: https://www.mk.co.kr/rss/60000007/
-- sourceName: 모터그래프
-  shortName: 모터그래프
-  homePage: https://www.motorgraph.com/
+- title: 모터그래프
+  nickname: 모터그래프
+  website: https://www.motorgraph.com/
   description: ''
-  categories:
-  - news
-  rssList: https://www.motorgraph.com/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  - 자동차
+  - 시승기
+  feedlist: https://www.motorgraph.com/rss/
   favicon: https://www.motorgraph.com/image/logo/favicon_20180420032255.ico
-  rssChannels:
+  channels:
     전체기사: https://www.motorgraph.com/rss/allArticle.xml
     인기기사: https://www.motorgraph.com/rss/clickTop.xml
     신차: https://www.motorgraph.com/rss/S1N1.xml
@@ -296,15 +279,16 @@ data:
     라이프: https://www.motorgraph.com/rss/S1N6.xml
     모터쇼: https://www.motorgraph.com/rss/S1N7.xml
     업계의 소리: https://www.motorgraph.com/rss/S1N8.xml
-- sourceName: 미디어오늘
-  shortName: 미디어오늘
-  homePage: http://www.mediatoday.co.kr/
+- title: 미디어오늘
+  nickname: 미디어오늘
+  website: http://www.mediatoday.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: http://www.mediatoday.co.kr/rssIndex.html
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: http://www.mediatoday.co.kr/rssIndex.html
   favicon: https://cdn.mediatoday.co.kr/image/logo/favicon.ico
-  rssChannels:
+  channels:
     전체기사: https://www.mediatoday.co.kr/rss/allArticle.xml
     인기기사: https://www.mediatoday.co.kr/rss/clickTop.xml
     정치: https://www.mediatoday.co.kr/rss/S1N2.xml
@@ -316,35 +300,38 @@ data:
     오피니언: https://www.mediatoday.co.kr/rss/S1N8.xml
     동영상: https://www.mediatoday.co.kr/rss/S1N10.xml
     미디어: https://www.mediatoday.co.kr/rss/S1N11.xml
-- sourceName: 세계일보
-  shortName: 세계일보
-  homePage: http://www.segye.com/
+- title: 세계일보
+  nickname: 세계일보
+  website: http://www.segye.com/
   description: ''
-  categories:
-  - news
-  rssList: http://www.segye.com/rssInfo
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: http://www.segye.com/rssInfo
   favicon: http://www.segye.com/favicon.ico
-  rssChannels:
-    전체뉴스: http://www.segye.com/Articles/RSSList/segye_recent.xml
-    정치: http://www.segye.com/Articles/RSSList/segye_politic.xml
-    경제: http://www.segye.com/Articles/RSSList/segye_economy.xml
-    사회: http://www.segye.com/Articles/RSSList/segye_society.xml
-    국제: http://www.segye.com/Articles/RSSList/segye_international.xml
-    전국: http://www.segye.com/Articles/RSSList/segye_local.xml
-    문화: http://www.segye.com/Articles/RSSList/segye_culture.xml
-    오피니언: http://www.segye.com/Articles/RSSList/segye_opinion.xml
-    연예: http://www.segye.com/Articles/RSSList/segye_entertainment.xml
-    스포츠: http://www.segye.com/Articles/RSSList/segye_sports.xml
-    포토: http://www.segye.com/Articles/RSSList/segye_photo.xml
-- sourceName: 세계파이낸스
-  shortName: 세계파이낸스
-  homePage: http://www.segyebiz.com/
+  channels:
+    전체뉴스: http://www.segye.com/Articles/feedlist/segye_recent.xml
+    정치: http://www.segye.com/Articles/feedlist/segye_politic.xml
+    경제: http://www.segye.com/Articles/feedlist/segye_economy.xml
+    사회: http://www.segye.com/Articles/feedlist/segye_society.xml
+    국제: http://www.segye.com/Articles/feedlist/segye_international.xml
+    전국: http://www.segye.com/Articles/feedlist/segye_local.xml
+    문화: http://www.segye.com/Articles/feedlist/segye_culture.xml
+    오피니언: http://www.segye.com/Articles/feedlist/segye_opinion.xml
+    연예: http://www.segye.com/Articles/feedlist/segye_entertainment.xml
+    스포츠: http://www.segye.com/Articles/feedlist/segye_sports.xml
+    포토: http://www.segye.com/Articles/feedlist/segye_photo.xml
+- title: 세계파이낸스
+  nickname: 세계파이낸스
+  website: http://www.segyebiz.com/
   description: ''
-  categories:
-  - news
-  rssList: http://www.segye.com/rssInfo
+  language: korean
+  keywords:
+  - 뉴스
+  - 경제
+  feedlist: http://www.segye.com/rssInfo
   favicon: https://www.segye.com/favicon.ico
-  rssChannels:
+  channels:
     전체뉴스: http://www.segyefn.com/views/rss/all_recent.xml
     금융: http://www.segyefn.com/views/rss/finance.xml
     산업: http://www.segyefn.com/views/rss/industry.xml
@@ -352,55 +339,63 @@ data:
     증권: http://www.segyefn.com/views/rss/stock.xml
     오피니언: http://www.segyefn.com/views/rss/opinion.xml
     CSR: http://www.segyefn.com/views/rss/csr.xml
-- sourceName: 스포츠경향
-  shortName: 스포츠경향
-  homePage: https://sports.khan.co.kr/
+- title: 스포츠경향
+  nickname: 스포츠경향
+  website: https://sports.khan.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://www.khan.co.kr/help/help_rss.html
+  language: korean
+  keywords:
+  - 뉴스
+  - 스포츠
+  feedlist: https://www.khan.co.kr/help/help_rss.html
   favicon: https://www.khan.co.kr/favicon.ico
-  rssChannels:
+  channels:
     전체뉴스: https://www.khan.co.kr/rss/rssdata/sktotal_news.xml
     스포츠: https://www.khan.co.kr/rss/rssdata/sksports_news.xml
     연예: https://www.khan.co.kr/rss/rssdata/sk_entertainment.xml
     생활·레저: https://www.khan.co.kr/rss/rssdata/skentertain_news.xml
-- sourceName: 스포츠동아
-  shortName: 스포츠동아
-  homePage: https://sports.donga.com/
+- title: 스포츠동아
+  nickname: 스포츠동아
+  website: https://sports.donga.com/
   description: ''
-  categories:
-  - news
-  rssList: http://rss.donga.com/
+  language: korean
+  keywords:
+  - 뉴스
+  - 스포츠
+  feedlist: http://rss.donga.com/
   favicon: https://sports.donga.com/favicon.ico
-  rssChannels:
+  channels:
     야구&MLB: https://rss.donga.com/sportsdonga/baseball.xml
     축구: https://rss.donga.com/sportsdonga/soccer.xml
     골프: https://rss.donga.com/sportsdonga/golf.xml
     종합: https://rss.donga.com/sportsdonga/sports_general.xml
     엔터테인먼트: https://rss.donga.com/sportsdonga/entertainment.xml
-- sourceName: 스포츠월드
-  shortName: 스포츠월드
-  homePage: http://www.sportsworldi.com
+- title: 스포츠월드
+  nickname: 스포츠월드
+  website: http://www.sportsworldi.com
   description: ''
-  categories:
-  - news
-  rssList: http://www.segye.com/rssInfo
+  language: korean
+  keywords:
+  - 뉴스
+  - 스포츠
+  feedlist: http://www.segye.com/rssInfo
   favicon: http://www.sportsworldi.com/favicon.ico
-  rssChannels:
-    전체뉴스: http://www.sportsworldi.com/Articles/RSSList/sw_recent.xml
-    스포츠: http://www.sportsworldi.com/Articles/RSSList/sw_sports.xml
-    연예: http://www.sportsworldi.com/Articles/RSSList/sw_entertainment.xml
-    라이프: http://www.sportsworldi.com/Articles/RSSList/sw_life.xml
-- sourceName: 스포츠한국
-  shortName: 스포츠한국
-  homePage: http://sports.hankooki.com/
+  channels:
+    전체뉴스: http://www.sportsworldi.com/Articles/feedlist/sw_recent.xml
+    스포츠: http://www.sportsworldi.com/Articles/feedlist/sw_sports.xml
+    연예: http://www.sportsworldi.com/Articles/feedlist/sw_entertainment.xml
+    라이프: http://www.sportsworldi.com/Articles/feedlist/sw_life.xml
+- title: 스포츠한국
+  nickname: 스포츠한국
+  website: http://sports.hankooki.com/
   description: ''
-  categories:
-  - news
-  rssList: https://rss.hankooki.com/
+  language: korean
+  keywords:
+  - 뉴스
+  - 스포츠
+  feedlist: https://rss.hankooki.com/
   favicon: http://img.hankooki.com/icon/sports/favicon.ico
-  rssChannels:
+  channels:
     전체: https://rss.hankooki.com/sports/sp_main.xml
     야구: https://rss.hankooki.com/sports/sp_baseball.xml
     축구: https://rss.hankooki.com/sports/sp_soccer.xml
@@ -411,15 +406,18 @@ data:
     경제: https://rss.hankooki.com/sports/sp_economy.xml
     시사: https://rss.hankooki.com/sports/sp_sisa.xml
     문화: https://rss.hankooki.com/sports/sp_culture.xml
-- sourceName: 시사IN
-  shortName: 시사IN
-  homePage: https://www.sisain.co.kr/
+- title: 시사IN
+  nickname: 시사IN
+  website: https://www.sisain.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://www.sisain.co.kr/rss.html
+  language: korean
+  keywords:
+  - 뉴스
+  - 시사
+  - 주간지
+  feedlist: https://www.sisain.co.kr/rss.html
   favicon: https://www.sisain.co.kr/image/logo/favicon.ico
-  rssChannels:
+  channels:
     전체기사: https://www.sisain.co.kr/rss/allArticle.xml
     인기기사: https://www.sisain.co.kr/rss/clickTop.xml
     COVER STORY IN: https://www.sisain.co.kr/rss/S1N2.xml
@@ -434,15 +432,18 @@ data:
     만화: https://www.sisain.co.kr/rss/S1N14.xml
     사진: https://www.sisain.co.kr/rss/S1N15.xml
     English: https://www.sisain.co.kr/rss/S1N23.xml
-- sourceName: 시사저널
-  shortName: 시사저널
-  homePage: http://www.sisajournal.com/
+- title: 시사저널
+  nickname: 시사저널
+  website: http://www.sisajournal.com/
   description: ''
-  categories:
-  - news
-  rssList: https://www.sisajournal.com/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  - 시사
+  - 주간지
+  feedlist: https://www.sisajournal.com/rss/
   favicon: https://www.sisajournal.com/image/logo/favicon.ico
-  rssChannels:
+  channels:
     전체기사: http://www.sisajournal.com/rss/allArticle.xml
     인기기사: http://www.sisajournal.com/rss/clickTop.xml
     사회: http://www.sisajournal.com/rss/S1N47.xml
@@ -454,15 +455,16 @@ data:
     국제: http://www.sisajournal.com/rss/S1N59.xml
     Health: http://www.sisajournal.com/rss/S2N106.xml
     Culture: http://www.sisajournal.com/rss/S2N107.xml
-- sourceName: 아이뉴스24
-  shortName: 아이뉴스24
-  homePage: https://www.inews24.com/
+- title: 아이뉴스24
+  nickname: 아이뉴스24
+  website: https://www.inews24.com/
   description: ''
-  categories:
-  - news
-  rssList: https://www.inews24.com/customer/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://www.inews24.com/customer/rss/
   favicon: https://www.inews24.com/favicon.ico
-  rssChannels:
+  channels:
     IT: https://www.inews24.com/rss/news_it.xml
     경제: https://www.inews24.com/rss/news_economy.xml
     정치: https://www.inews24.com/rss/news_politics.xml
@@ -471,15 +473,16 @@ data:
     생활: https://www.inews24.com/rss/news_life.xml
     연예: https://www.inews24.com/rss/news_enter.xml
     스포츠: https://www.inews24.com/rss/news_sports.xml
-- sourceName: SBS 뉴스
-  shortName: SBS 뉴스
-  homePage: https://news.sbs.co.kr
+- title: SBS 뉴스
+  nickname: SBS 뉴스
+  website: https://news.sbs.co.kr
   description: ''
-  categories:
-  - news
-  rssList: https://news.sbs.co.kr/news/rss.do
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://news.sbs.co.kr/news/rss.do
   favicon: https://news.sbs.co.kr/favicon.ico
-  rssChannels:
+  channels:
     정치: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01&plink=RSSREADER
     경제: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02&plink=RSSREADER
     사회: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03&plink=RSSREADER
@@ -497,15 +500,17 @@ data:
     취재파일: https://news.sbs.co.kr/news/Coverage_RssFeed.do?plink=RSSREADER
     비디오머그: https://news.sbs.co.kr/news/VideoMug_RssFeed.do?plink=RSSREADER
     스브스뉴스: https://news.sbs.co.kr/news/Subusu_RssFeed.do?plink=RSSREADER
-- sourceName: 에이빙
-  shortName: 에이빙
-  homePage: http://www.aving.net
+- title: 에이빙
+  nickname: 에이빙
+  website: http://www.aving.net
   description: ''
-  categories:
-  - news
-  rssList: http://www.aving.net/?page_id=11228
+  language: korean
+  keywords:
+  - 뉴스
+  - 인터넷
+  feedlist: http://www.aving.net/?page_id=11228
   favicon: http://kr.aving.net/favicon.ico
-  rssChannels:
+  channels:
     모바일/통신: http://www.aving.net/rss/mobile.xml
     컴퓨팅: http://www.aving.net/rss/computing.xml
     가전: http://www.aving.net/rss/homeappliance.xml
@@ -520,15 +525,16 @@ data:
     Korean: http://www.aving.net/rss/korean.xml
     German: http://www.aving.net/rss/german.xml
     Japanese: http://www.aving.net/rss/japanese.xml
-- sourceName: 오마이뉴스
-  shortName: 오마이뉴스
-  homePage: http://www.ohmynews.com
+- title: 오마이뉴스
+  nickname: 오마이뉴스
+  website: http://www.ohmynews.com
   description: ''
-  categories:
-  - news
-  rssList: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
   favicon: http://www.ohmynews.com/favicon.ico
-  rssChannels:
+  channels:
     전체기사: http://rss.ohmynews.com/rss/ohmynews.xml
     주요기사: http://rss.ohmynews.com/rss/top.xml
     오늘의사진: http://rss.ohmynews.com/rss/todayphoto.xml
@@ -551,51 +557,58 @@ data:
     강원제주: http://rss.ohmynews.com/rss/gangwonjeju.xml
     해외리포트: http://rss.ohmynews.com/rss/ab_reporter.xml
     만화만평: http://rss.ohmynews.com/rss/cartoon.xml
-- sourceName: 오마이스타
-  shortName: 오마이스타
-  homePage: http://www.ohmynews.com
+- title: 오마이스타
+  nickname: 오마이스타
+  website: http://www.ohmynews.com
   description: ''
-  categories:
-  - news
-  rssList: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
+  language: korean
+  keywords:
+  - 뉴스
+  - 연예
+  feedlist: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
   favicon: http://www.ohmynews.com/favicon.ico
-  rssChannels:
+  channels:
     전체기사: http://rss.ohmynews.com/rss/star.xml
     주요기사: http://rss.ohmynews.com/rss/startop.xml
     스포츠: http://rss.ohmynews.com/rss/sports.xml
-- sourceName: 오마이TV
-  shortName: 오마이TV
-  homePage: http://www.ohmynews.com
+- title: 오마이TV
+  nickname: 오마이TV
+  website: http://www.ohmynews.com
   description: ''
-  categories:
-  - news
-  rssList: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
+  language: korean
+  keywords:
+  - 뉴스
+  - 방송
+  feedlist: http://www.ohmynews.com/nws_web/help/srv/h_help_rss.aspx
   favicon: http://www.ohmynews.com/favicon.ico
-  rssChannels:
+  channels:
     최진기의 인문학 특강: http://rss.ohmynews.com/rss/podcast_cjk_online_main.xml
     오마이스쿨 온라인 강좌: http://rss.ohmynews.com/rss/podcast_full_online_main.xml
     오마이TV 저자와의 대화: http://rss.ohmynews.com/rss/podcast_authortalk_main.xml
     이슈 털어주는 남자: http://rss.ohmynews.com/RSS/podcast_etul_main.xml
     이털남 시즌3: http://rss.ohmynews.com/RSS/podcast_etul3_main.xml
-- sourceName: 이데일리
-  shortName: 이데일리
-  homePage: https://www.edaily.co.kr/
+- title: 이데일리
+  nickname: 이데일리
+  website: https://www.edaily.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://www.edaily.co.kr/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://www.edaily.co.kr/
   favicon: https://www.edaily.co.kr/v2/images/favicon.ico
-  rssChannels:
+  channels:
     전체뉴스: http://rss.edaily.co.kr/edaily_news.xml
-- sourceName: 전자신문
-  shortName: 전자신문
-  homePage: https://www.etnews.com
+- title: 전자신문
+  nickname: 전자신문
+  website: https://www.etnews.com
   description: ''
-  categories:
-  - news
-  rssList: https://www.etnews.com/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  - 전자
+  feedlist: https://www.etnews.com/rss/
   favicon: https://www.etnews.com/favicon.ico
-  rssChannels:
+  channels:
     오늘의 뉴스: http://rss.etnews.com/Section901.xml
     뉴스속보: http://rss.etnews.com/Section902.xml
     오늘의 인기기사: http://rss.etnews.com/Section903.xml
@@ -639,15 +652,16 @@ data:
     국제: http://rss.etnews.com/12.xml
     오피니언: http://rss.etnews.com/11.xml
     열린마당: http://rss.etnews.com/11011.xml
-- sourceName: jtbc 뉴스
-  shortName: jtbc 뉴스
-  homePage: https://news.jtbc.joins.com
+- title: jtbc 뉴스
+  nickname: jtbc 뉴스
+  website: https://news.jtbc.joins.com
   description: ''
-  categories:
-  - news
-  rssList: https://news.jtbc.joins.com/Etc/RssService.aspx
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://news.jtbc.joins.com/Etc/RssService.aspx
   favicon: https://images.jtbc.joins.com/ui_mobile/app_icon/favicon-32x32.png
-  rssChannels:
+  channels:
     속보: https://fs.jtbc.joins.com/RSS/newsflash.xml
     정치: https://fs.jtbc.joins.com/RSS/politics.xml
     경제: https://fs.jtbc.joins.com/RSS/economy.xml
@@ -662,15 +676,16 @@ data:
     아침&: https://fs.jtbc.joins.com/RSS/morningand.xml
     썰전 라이브: https://fs.jtbc.joins.com/RSS/ssulzunlive.xml
     정치부회의: https://fs.jtbc.joins.com/RSS/politicaldesk.xml
-- sourceName: 조선닷컴
-  shortName: 조선닷컴
-  homePage: https://www.chosun.com
+- title: 조선닷컴
+  nickname: 조선닷컴
+  website: https://www.chosun.com
   description: ''
-  categories:
-  - news
-  rssList: https://rssplus.chosun.com/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://rssplus.chosun.com/
   favicon: https://www.chosun.com/favicon.ico
-  rssChannels:
+  channels:
     전체기사: https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml
     정치: https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml
     경제: https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml
@@ -681,15 +696,16 @@ data:
     스포츠: https://www.chosun.com/arc/outboundfeeds/rss/category/sports/?outputType=xml
     연예: https://www.chosun.com/arc/outboundfeeds/rss/category/entertainments/?outputType=xml
     영문 조선: http://english.chosun.com/site/data/rss/rss.xml
-- sourceName: 중앙일보
-  shortName: 중앙일보
-  homePage: https://www.joongang.co.kr/
+- title: 중앙일보
+  nickname: 중앙일보
+  website: https://www.joongang.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://rss.joins.com/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://rss.joins.com/
   favicon: https://www.joongang.co.kr/favicon.ico
-  rssChannels:
+  channels:
     전체기사: https://rss.joins.com/joins_news_list.xml
     주요기사: https://rss.joins.com/joins_homenews_list.xml
     경제: https://rss.joins.com/joins_money_list.xml
@@ -701,15 +717,17 @@ data:
     중앙데일리: https://koreajoongangdaily.joins.com/xmls/joins
     스포츠전체: https://rss.joins.com/joins_sports_list.xml
     연예전체: https://rss.joins.com/joins_star_list.xml
-- sourceName: 지피코리아
-  shortName: 지피코리아
-  homePage: http://www.gpkorea.com/
+- title: 지피코리아
+  nickname: 지피코리아
+  website: http://www.gpkorea.com/
   description: ''
-  categories:
-  - news
-  rssList: http://www.gpkorea.com/rss/
+  language: korean
+  keywords:
+  - 뉴스
+  - 자동차
+  feedlist: http://www.gpkorea.com/rss/
   favicon: http://www.gpkorea.com/image/logo/favicon_20180330110946.ico
-  rssChannels:
+  channels:
     전체기사: http://www.gpkorea.com/rss/allArticle.xml
     인기기사: http://www.gpkorea.com/rss/clickTop.xml
     자동차뉴스: http://www.gpkorea.com/rss/S1N1.xml
@@ -717,15 +735,17 @@ data:
     테마기획: http://www.gpkorea.com/rss/S1N3.xml
     시승기: http://www.gpkorea.com/rss/S1N4.xml
     영상뉴스: http://www.gpkorea.com/rss/S1N5.xml
-- sourceName: 파이낸셜 뉴스
-  shortName: 파이낸셜 뉴스
-  homePage: https://www.fnnews.com
+- title: 파이낸셜 뉴스
+  nickname: 파이낸셜 뉴스
+  website: https://www.fnnews.com
   description: ''
-  categories:
-  - news
-  rssList: https://www.fnnews.com/rss
+  language: korean
+  keywords:
+  - 뉴스
+  - 경제
+  feedlist: https://www.fnnews.com/rss
   favicon: https://www.fnnews.com/resources/images/icon2020/favicon_16x16_j4i_icon.ico
-  rssChannels:
+  channels:
     전체기사: https://www.fnnews.com/rss/r20/fn_realnews_all.xml
     정치: https://www.fnnews.com/rss/r20/fn_realnews_politics.xml
     국제: https://www.fnnews.com/rss/r20/fn_realnews_international.xml
@@ -750,25 +770,27 @@ data:
     자동차: https://www.fnnews.com/rss/r20/fn_realnews_car.xml
     문화: https://www.fnnews.com/rss/r20/fn_realnews_culture.xml
     블록포스트: https://www.fnnews.com/rss/r20/fn_realnews_blockpost.xml
-- sourceName: 팝코넷
-  shortName: 팝코넷
-  homePage: https://www.popco.net/
+- title: 팝코넷
+  nickname: 팝코넷
+  website: https://www.popco.net/
   description: ''
-  categories:
-  - news
-  rssList: https://www.popco.net/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://www.popco.net/
   favicon: https://www.popco.net/favicon.ico
-  rssChannels:
+  channels:
     뉴스: https://www.popco.net/rss/news_rss.php
-- sourceName: 프레시안
-  shortName: 프레시안
-  homePage: https://www.pressian.com/
+- title: 프레시안
+  nickname: 프레시안
+  website: https://www.pressian.com/
   description: ''
-  categories:
-  - news
-  rssList: https://www.pressian.com/rss
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://www.pressian.com/rss
   favicon: https://cdn.pressian.com/pressian.ico
-  rssChannels:
+  channels:
     최신 기사: http://www.pressian.com/api/v3/site/rss/news
     뉴스: http://www.pressian.com/api/v3/site/rss/section/25
     books: http://www.pressian.com/api/v3/site/rss/section/60
@@ -779,15 +801,17 @@ data:
     문화: http://www.pressian.com/api/v3/site/rss/section/69
     스포츠: http://www.pressian.com/api/v3/site/rss/section/70
     미디어: http://www.pressian.com/api/v3/site/rss/section/75
-- sourceName: 한국경제신문
-  shortName: 한국경제신문
-  homePage: https://hankyung.com/
+- title: 한국경제신문
+  nickname: 한국경제신문
+  website: https://hankyung.com/
   description: ''
-  categories:
-  - news
-  rssList: https://rss.hankyung.com/
+  language: korean
+  keywords:
+  - 뉴스
+  - 경제
+  feedlist: https://rss.hankyung.com/
   favicon: https://hankyung.com/favicon.ico
-  rssChannels:
+  channels:
     주요뉴스: https://rss.hankyung.com/feed/headline.xml
     경제: https://rss.hankyung.com/feed/economy.xml
     IT: https://rss.hankyung.com/feed/it.xml
@@ -799,16 +823,17 @@ data:
     정치: https://rss.hankyung.com/feed/politics.xml
     사회: https://rss.hankyung.com/feed/society.xml
     오피니언: https://rss.hankyung.com/feed/opinion.xml
-    연예: https://rss.hankyung.com/feed/hei.xml   
-- sourceName: 한겨레
-  shortName: 한겨레
-  homePage: https://www.hani.co.kr/
+    연예: https://rss.hankyung.com/feed/hei.xml
+- title: 한겨레
+  nickname: 한겨레
+  website: https://www.hani.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://www.hani.co.kr/arti/RSS/
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: https://www.hani.co.kr/arti/RSS/
   favicon: https://www.hani.co.kr/favicon.ico
-  rssChannels:
+  channels:
     전체기사: https://www.hani.co.kr/rss/
     정치: https://www.hani.co.kr/rss/politics/
     경제: https://www.hani.co.kr/rss/economy/
@@ -828,15 +853,18 @@ data:
     멀티하니: https://www.hani.co.kr/rss/multihani/
     주요기사: https://www.hani.co.kr/rss/lead/
     인기기사: https://www.hani.co.kr/rss/newsrank/
-- sourceName: 한겨레21
-  shortName: 한겨레21
-  homePage: http://h21.hani.co.kr/
+- title: 한겨레21
+  nickname: 한겨레21
+  website: http://h21.hani.co.kr/
   description: ''
-  categories:
-  - news
-  rssList: https://h21.hani.co.kr/arti/RSS
+  language: korean
+  keywords:
+  - 뉴스
+  - 시사
+  - 주간지
+  feedlist: https://h21.hani.co.kr/arti/RSS
   favicon: https://h21.hani.co.kr/favicon.ico
-  rssChannels:
+  channels:
     전체기사: https://h21.hani.co.kr/rss/
     표지이야기: https://h21.hani.co.kr/rss/cover/
     특집: https://h21.hani.co.kr/rss/special/
@@ -847,21 +875,4 @@ data:
     문화: https://h21.hani.co.kr/rss/culture/
     멀티미디어: https://h21.hani.co.kr/rss/photo/
     커뮤니티: https://h21.hani.co.kr/rss/reader/
-- sourceName: Reddit
-  shortName: Reddit
-  homePage: https://www.reddit.com/
-  description: ''
-  categories:
-  - community
-  rssList: https://www.reddit.com/wiki/rss
-  favicon: https://www.reddit.com/favicon.ico
-  rssChannels:
-    r/bangtan: https://www.reddit.com/r/bangtan/.rss
-    r/hanguk: https://www.reddit.com/r/hanguk/.rss
-    r/KDRAMA: https://www.reddit.com/r/KDRAMA/.rss
-    r/manwha: https://www.reddit.com/r/manhwa/.rss
-    r/korea: https://www.reddit.com/r/korea/.rss
-    r/Korean: https://www.reddit.com/r/Korean/.rss
-    r/KoreaRealism: https://www.reddit.com/r/KoreaRealism/.rss
-    r/koreaveriety: https://www.reddit.com/r/koreanvariety/.rss
-    r/kpop: https://www.reddit.com/r/kpop/.rss
+

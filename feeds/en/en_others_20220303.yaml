@@ -145,8 +145,32 @@ data:
   favicon: https://news.ycombinator.com/favicon.ico
   channels:
     Newest: https://hnrss.org/newest
+- title: Jordan Habinger Show
+  nickname: Jordan Habinger Show
+  website: https://www.jordanharbinger.com/
+  description: ''
+  language: english
+  keywords:
+  - podcast
+  - social science
+  feedlist: https://www.jordanharbinger.com/podcasts/
+  favicon: https://www.jordanharbinger.com/favicon.ico
+  channels:
+    Episodes: https://www.jordanharbinger.com/rss/
+- title: Techmeme Ride Home
+  nickname: Techmeme
+  website: https://www.ridehome.info/show/techmeme-ride-home/
+  description: ''
+  language: english
+  keywords:
+  - podcast
+  - it
+  feedlist: https://www.ridehome.info/show/techmeme-ride-home/
+  favicon: https://podpage.imgix.net/https%3A%2F%2Fs3.us-west-1.amazonaws.com%2Fredwood-labs%2Fshowpage%2Fuploads%2Fimages%2F1261c691983b425483d6674b52831064.png?h=720&w=32&s=75c4ba0fedf34392f6cd4204c7b1e0b6
+  channels:
+    Episodes: https://rss.art19.com/techmeme-ridehome
 - title: Verge, The
-  nickname: TheVerge
+  nickname: The Verge
   website: https://www.theverge.com/
   description: ''
   language: english

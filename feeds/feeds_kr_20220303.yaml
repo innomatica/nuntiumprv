@@ -854,4 +854,574 @@ data:
     문화: https://h21.hani.co.kr/rss/culture/
     멀티미디어: https://h21.hani.co.kr/rss/photo/
     커뮤니티: https://h21.hani.co.kr/rss/reader/
-
+- title: 교보문고 북뉴스
+  nickname: 교보문고
+  website: http://news.kyobobook.co.kr/main.ink
+  description: ''
+  language: korean
+  keywords:
+  - 서점
+  feedlist: http://news.kyobobook.co.kr/RSS.ink
+  favicon: https://www.kyobobook.co.kr/favicon.ico
+  channels:
+    뉴스전체: http://news.kyobobook.co.kr/rssv2/booknews_all_rss.xml
+    오늘뉴스: http://news.kyobobook.co.kr/rssv2/todaynews_rss.xml
+    눈에 띄는 책: http://news.kyobobook.co.kr/rssv2/eyebook_rss.xml
+    기획특집: http://news.kyobobook.co.kr/rssv2/specialplus_rss.xml
+    인터뷰: http://news.kyobobook.co.kr/rssv2/interview_rss.xml
+    연재:기사 전체: http://news.kyobobook.co.kr/rssv2/publish_rss.xml
+    연재:웹툰: http://news.kyobobook.co.kr/rssv2/publish_webtoon_rss.xml
+    연재:칼럼: http://news.kyobobook.co.kr/rssv2/publish_opencolumnlist_rss.xml
+    연재:READ IT: http://news.kyobobook.co.kr/rssv2/publish_readit_rss.xml
+    연재:북챗: http://news.kyobobook.co.kr/rssv2/publish_bookchat_rss.xml
+    북TV:기사 전체: http://news.kyobobook.co.kr/rssv2/booktv_rss.xml
+    북TV:북캐스트: http://news.kyobobook.co.kr/rssv2/booktv_welcomeshow_rss.xml
+    북TV:북튜버: http://news.kyobobook.co.kr/rssv2/booktv_booktube_rss.xml
+    북TV:영상스케치: http://news.kyobobook.co.kr/rssv2/booktv_sketch_rss.xml
+    연재종료:기사 전체: http://news.kyobobook.co.kr/rssv2/publishend_rss.xml
+    연재종료:책상자: http://news.kyobobook.co.kr/rssv2/booktv_bookbox_rss.xml
+    연재종료:베스트셀러: http://news.kyobobook.co.kr/rssv2/booktv_bestseller_rss.xml
+    연재종료:북트레일러: http://news.kyobobook.co.kr/rssv2/booktv_booktrailer_rss.xml
+    연재종료:북토리언: http://news.kyobobook.co.kr/rssv2/publish_booktorianlist_rss.xml
+    연재종료:소설: http://news.kyobobook.co.kr/rssv2/publish_novel_rss.xml
+- title: 레딧
+  nickname: 레딧
+  website: https://www.reddit.com/
+  description: ''
+  language: korean
+  keywords:
+  - 소셜
+  - 커뮤니티
+  feedlist: https://www.reddit.com/wiki/rss
+  favicon: https://www.reddit.com/favicon.ico
+  channels:
+    r/hanguk: https://www.reddit.com/r/hanguk/.rss
+    r/KoreaRealism: https://www.reddit.com/r/KoreaRealism/.rss
+- title: 朝日新聞
+  nickname: 朝日新聞
+  website: https://www.asahi.com
+  description: ''
+  language: japanese
+  keywords:
+  - news
+  - japan
+  feedlist: https://www.asahi.com/information/service/rss.html
+  favicon: https://www.asahi.com/favicon.ico
+  channels:
+    デジタル速報ニュース: https://www.asahi.com/rss/asahi/newsheadlines.rdf
+    社会: https://www.asahi.com/rss/asahi/national.rdf
+    政治: https://www.asahi.com/rss/asahi/politics.rdf
+    スポーツ: https://www.asahi.com/rss/asahi/sports.rdf
+    オリンピック: https://www.asahi.com/rss/olympics.rdf
+    サッカーワールドカップ: https://www.asahi.com/rss/worldcup.rdf
+    経済・マネー: https://www.asahi.com/rss/asahi/business.rdf
+    国際: https://www.asahi.com/rss/asahi/international.rdf
+    カルチャー: https://www.asahi.com/rss/asahi/culture.rdf
+    どうぶつ新聞: https://www.asahi.com/rss/animal.rdf
+    テック＆サイエンス: https://www.asahi.com/rss/asahi/science.rdf
+    囲碁: https://www.asahi.com/rss/asahi/igo.rdf
+    将棋: https://www.asahi.com/rss/asahi/shogi.rdf
+    住まい: https://www.asahi.com/rss/asahi/housing.rdf
+    就職転職: https://www.asahi.com/rss/asahi/job.rdf
+    食と料理: https://www.asahi.com/rss/asahi/food.rdf
+    ファッション: https://www.asahi.com/rss/asahi/fashion.rdf
+    健康: https://www.asahi.com/rss/asahi/health.rdf
+    愛車: https://www.asahi.com/rss/asahi/car.rdf
+    教育: https://www.asahi.com/rss/asahi/edu.rdf
+    デジタル: https://www.asahi.com/rss/asahi/digital.rdf
+    トラベル: https://www.asahi.com/rss/asahi/travel.rdf
+    環境・エネルギー: https://www.asahi.com/rss/asahi/eco.rdf
+    ショッピング: https://www.asahi.com/rss/asahi/shopping.rdf
+- title: Nikkei Asia
+  nickname: Nikkei Asia
+  website: https://asia.nikkei.com
+  description: ''
+  language: japanese
+  keywords:
+  - news
+  - japan
+  - asia
+  feedlist: https://info.asia.nikkei.com/rss
+  favicon: https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/a0wZqCfr/favicon_A.ico
+  channels:
+    News: https://asia.nikkei.com/rss/feed/nar
+- title: NHKニュース
+  nickname: NHKニュース
+  website: http://www.nhk.or.jp/news/
+  description: ''
+  language: japanese
+  keywords:
+  - news
+  - japan
+  - public
+  feedlist: https://www.nhk.or.jp/toppage/rss/index.html
+  favicon: https://www.nhk.or.jp/favicon.ico
+  channels:
+    主要ニュース: https://www.nhk.or.jp/rss/news/cat0.xml
+    社会: https://www.nhk.or.jp/rss/news/cat1.xml
+    科学・医療: https://www.nhk.or.jp/rss/news/cat3.xml
+    政治: https://www.nhk.or.jp/rss/news/cat4.xml
+    経済: https://www.nhk.or.jp/rss/news/cat5.xml
+    国際: https://www.nhk.or.jp/rss/news/cat6.xml
+    スポーツ: https://www.nhk.or.jp/rss/news/cat7.xml
+    文化・エンタメ: https://www.nhk.or.jp/rss/news/cat2.xml
+    LIVEニュース: https://www.nhk.or.jp/rss/news/cat-live.xml
+- title: BBC News
+  nickname: BBC News
+  website: https://bbc.co.uk/news
+  description: ''
+  language: english
+  keywords:
+  - news
+  - uk
+  - public
+  feedlist: https://www.bbc.co.uk/news/10628494
+  favicon: https://bbc.co.uk/favicon.ico
+  channels:
+    Top Stories: http://feeds.bbci.co.uk/news/rss.xml
+    World: http://feeds.bbci.co.uk/news/world/rss.xml
+    UK: http://feeds.bbci.co.uk/news/uk/rss.xml
+    Business: http://feeds.bbci.co.uk/news/business/rss.xml
+    Politics: http://feeds.bbci.co.uk/news/politics/rss.xml
+    Health: http://feeds.bbci.co.uk/news/health/rss.xml
+    Education & Family: http://feeds.bbci.co.uk/news/education/rss.xml
+    Science & Environment: http://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+    Technology: http://feeds.bbci.co.uk/news/technology/rss.xml
+    Entertainment & Arts: http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml
+    Africa: http://feeds.bbci.co.uk/news/world/africa/rss.xml
+    Asia: http://feeds.bbci.co.uk/news/world/asia/rss.xml
+    Europe: http://feeds.bbci.co.uk/news/world/europe/rss.xml
+    Latin America: http://feeds.bbci.co.uk/news/world/latin_america/rss.xml
+    Middle East: http://feeds.bbci.co.uk/news/world/middle_east/rss.xml
+    US & Canada: http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml
+    England: http://feeds.bbci.co.uk/news/england/rss.xml
+    Northern Ireland: http://feeds.bbci.co.uk/news/northern_ireland/rss.xml
+    Scotland: http://feeds.bbci.co.uk/news/scotland/rss.xml
+    Wales: http://feeds.bbci.co.uk/news/wales/rss.xml
+    Latest published stories: http://feeds.bbci.co.uk/news/system/latest_published_content/rss.xml
+    Magazine: http://feeds.bbci.co.uk/news/magazine/rss.xml
+    Also in the news: http://feeds.bbci.co.uk/news/also_in_the_news/rss.xml
+    In Pictures: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/in_pictures/rss.xml
+    Special Reports: http://feeds.bbci.co.uk/news/special_reports/rss.xml
+    Have your say: http://feeds.bbci.co.uk/news/have_your_say/rss.xml
+    Editors Blog: https://www.bbc.co.uk/blogs/theeditors/rss.xml
+    BBC Sport feeds: https://news.bbc.co.uk/sport1/hi/help/rss/default.stm
+- title: CBC News
+  nickname: CBC News
+  website: https://www.cbc.ca
+  description: ''
+  language: english
+  keywords:
+  - news
+  - canada
+  - public
+  feedlist: https://www.cbc.ca/rss/
+  favicon: https://www.cbc.ca/favicon.ico
+  channels:
+    Top Stories: https://rss.cbc.ca/lineup/topstories.xml
+    World: https://rss.cbc.ca/lineup/world.xml
+    Canada: https://rss.cbc.ca/lineup/canada.xml
+    Politics: https://rss.cbc.ca/lineup/politics.xml
+    Business: https://rss.cbc.ca/lineup/business.xml
+    Health: https://rss.cbc.ca/lineup/health.xml
+    Arts & Entertainment: https://rss.cbc.ca/lineup/arts.xml
+    Technology & Science: https://rss.cbc.ca/lineup/technology.xml
+    Offbeat: https://rss.cbc.ca/lineup/offbeat.xml
+    Indigenous: https://www.cbc.ca/cmlink/rss-Indigenous
+    Sports: https://rss.cbc.ca/lineup/sports.xml
+    MLB: https://rss.cbc.ca/lineup/sports-mlb.xml
+    NBA: https://rss.cbc.ca/lineup/sports-nba.xml
+    Curling: https://rss.cbc.ca/lineup/sports-curling.xml
+    CFL: https://rss.cbc.ca/lineup/sports-cfl.xml
+    NFL: https://rss.cbc.ca/lineup/sports-nfl.xml
+    NHL: https://rss.cbc.ca/lineup/sports-nhl.xml
+    Soccer: https://rss.cbc.ca/lineup/sports-soccer.xml
+    Figure Skating: https://rss.cbc.ca/lineup/sports-figureskating.xml
+    British Columbia: https://rss.cbc.ca/lineup/canada-britishcolumbia.xml
+    Kamloops: https://rss.cbc.ca/lineup/canada-kamloops.xml
+    Calgary: https://rss.cbc.ca/lineup/canada-calgary.xml
+    Edmonton: https://rss.cbc.ca/lineup/canada-edmonton.xml
+    Saskatchewan: https://rss.cbc.ca/lineup/canada-saskatchewan.xml
+    Saskatoon: https://rss.cbc.ca/lineup/canada-saskatoon.xml
+    Manitoba: https://rss.cbc.ca/lineup/canada-manitoba.xml
+    Thunder Bay: https://rss.cbc.ca/lineup/canada-thunderbay.xml
+    Sudbury: https://rss.cbc.ca/lineup/canada-sudbury.xml
+    Windsor: https://rss.cbc.ca/lineup/canada-windsor.xml
+    London: https://www.cbc.ca/cmlink/rss-canada-london
+    Kitchener-Waterloo: https://rss.cbc.ca/lineup/canada-kitchenerwaterloo.xml
+    Toronto: https://rss.cbc.ca/lineup/canada-toronto.xml
+    Hamilton: https://rss.cbc.ca/lineup/canada-hamiltonnews.xml
+    Montreal: https://rss.cbc.ca/lineup/canada-montreal.xml
+    New Brunswick: https://rss.cbc.ca/lineup/canada-newbrunswick.xml
+    Prince Edward Island: https://rss.cbc.ca/lineup/canada-pei.xml
+    Nova Scotia: https://rss.cbc.ca/lineup/canada-novascotia.xml
+    Newfoundland & Labrador: https://rss.cbc.ca/lineup/canada-newfoundland.xml
+    North: https://rss.cbc.ca/lineup/canada-north.xml
+    The National - In Depth Reports: https://rss.cbc.ca/lineup/thenational.xml
+- title: CNBC News
+  nickname: CNBC News
+  website: https://www.cnbc.com
+  description: ''
+  language: english
+  keywords:
+  - news
+  - usa
+  feedlist: https://www.cnbc.com/rss-feeds/
+  favicon: https://www.cnbc.com/favicon.ico
+  channels:
+    Top News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114
+    World News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100727362
+    US News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15837362
+    Asia News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19832390
+    Europe News: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19794221
+    Business: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147
+    Earnings: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15839135
+    Commentary: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100370673
+    Economy: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258
+    Finance: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664
+    Technology: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910
+    Politics: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000113
+    Health Care: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000108
+    Real Estate: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000115
+    Wealth: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001054
+    Autos: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000101
+    Energy: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19836768
+    Media: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000110
+    Retail: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000116
+    Travel: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000739
+    Small Business: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=44877279
+- title: CNN News
+  nickname: CNN News
+  website: https://www.cnn.com/
+  description: ''
+  language: english
+  keywords:
+  - news
+  - usa
+  feedlist: https://www.cnn.com/services/rss/
+  favicon: https://www.cnn.com/favicon.ico
+  channels:
+    Top Stories: http://rss.cnn.com/rss/cnn_topstories.rss
+    World: http://rss.cnn.com/rss/cnn_world.rss
+    U.S.: http://rss.cnn.com/rss/cnn_us.rss
+    Business (CNNMoney.com): http://rss.cnn.com/rss/money_latest.rss
+    Politics: http://rss.cnn.com/rss/cnn_allpolitics.rss
+    Technology: http://rss.cnn.com/rss/cnn_tech.rss
+    Health: http://rss.cnn.com/rss/cnn_health.rss
+    Entertainment: http://rss.cnn.com/rss/cnn_showbiz.rss
+    Travel: http://rss.cnn.com/rss/cnn_travel.rss
+    Video: http://rss.cnn.com/rss/cnn_freevideo.rss
+    CNN 10: http://rss.cnn.com/services/podcasting/cnn10/rss.xml
+    Most Recent: http://rss.cnn.com/rss/cnn_latest.rss
+    CNN Underscored: http://rss.cnn.com/cnn-underscored
+- title: CNN Money
+  nickname: CNN Money
+  website: https://money.cnn.com
+  description: ''
+  language: english
+  keywords:
+  - news
+  - business
+  feedlist: https://money.cnn.com/services/rss/
+  favicon: https://money.cnn.com/favicon.ico
+  channels:
+    All Stories: http://rss.cnn.com/rss/money_latest.rss
+    Top Stories: http://rss.cnn.com/rss/money_topstories.rss
+    Most Popular: http://rss.cnn.com/rss/money_mostpopular.rss
+    Companies: http://rss.cnn.com/rss/money_news_companies.rss
+    International: http://rss.cnn.com/rss/money_news_international.rss
+    Economy: http://rss.cnn.com/rss/money_news_economy.rss
+    Video: http://rss.cnn.com/rss/money_video_business.rss
+    Media: http://rss.cnn.com/rss/money_media.rss
+    Markets: http://rss.cnn.com/rss/money_markets.rss
+    The Buzz: http://rss.cnn.com/cnnmoneymorningbuzz
+    Technology: http://rss.cnn.com/rss/money_technology.rss
+    Personal Finance: http://rss.cnn.com/rss/money_pf.rss
+    Autos: http://rss.cnn.com/rss/money_autos.rss
+    Funds: http://rss.cnn.com/rss/money_funds.rss
+    College: http://rss.cnn.com/rss/money_pf_college.rss
+    Insurance: http://rss.cnn.com/rss/money_pf_insurance.rss
+    Taxes: http://rss.cnn.com/rss/money_pf_taxes.rss
+    Retirement: http://rss.cnn.com/rss/money_retirement.rss
+    Lifestyle: http://rss.cnn.com/rss/money_lifestyle.rss
+    Real Estate: http://rss.cnn.com/rss/money_realestate.rss
+    Luxury: http://rss.cnn.com/rss/money_luxury.rss
+    Small Business: http://rss.cnn.com/rss/money_smbusiness.rss
+- title: Guardian, The
+  nickname: Guardian
+  website: https://www.theguardian.com
+  description: ''
+  language: english
+  keywords:
+  - news
+  - uk
+  feedlist: https://www.theguardian.com/help/feeds
+  favicon: https://www.theguardian.com/favicon.ico
+  channels:
+    World: https://www.theguardian.com/world/rss
+    Europe: https://www.theguardian.com/world/europe-news/rss
+    US: https://www.theguardian.com/us-news/rss
+    Americas: https://www.theguardian.com/world/americas/rss
+    Asia: https://www.theguardian.com/world/asia/rss
+    Australia: https://www.theguardian.com/australia-news/rss
+    Middle East: https://www.theguardian.com/world/middleeast/rss
+    Africa: https://www.theguardian.com/world/africa/rss
+    Inequality: https://www.theguardian.com/inequality/rss
+    Glolbal Development: https://www.theguardian.com/global-development/rss
+- title: New York Times, The
+  nickname: NY Times
+  website: https://www.nytimes.com
+  description: ''
+  language: english
+  keywords:
+  - news
+  - usa
+  feedlist: https://www.nytimes.com/rss
+  favicon: https://www.nytimes.com/favicon.ico
+  channels:
+    World: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+    Africa: https://rss.nytimes.com/services/xml/rss/nyt/Africa.xml
+    Americas: https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml
+    Asia Pacific: https://rss.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml
+    Europe: https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml
+    Middle East: https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml
+    U.S.: https://rss.nytimes.com/services/xml/rss/nyt/US.xml
+    Education: https://rss.nytimes.com/services/xml/rss/nyt/Education.xml
+    Politics: https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml
+    The Upshot: https://rss.nytimes.com/services/xml/rss/nyt/Upshot.xml
+    N.Y./Region: https://rss.nytimes.com/services/xml/rss/nyt/NYRegion.xml
+    Business: https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
+    Energy & Environment: https://rss.nytimes.com/services/xml/rss/nyt/EnergyEnvironment.xml
+    Small Business: https://rss.nytimes.com/services/xml/rss/nyt/SmallBusiness.xml
+    Economy: https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml
+    DealBook: https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml
+    Media & Advertising: https://rss.nytimes.com/services/xml/rss/nyt/MediaandAdvertising.xml
+    Your Money: https://rss.nytimes.com/services/xml/rss/nyt/YourMoney.xml
+    Technology: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+    Personal Tech: https://rss.nytimes.com/services/xml/rss/nyt/PersonalTech.xml
+    Sports: https://rss.nytimes.com/services/xml/rss/nyt/Sports.xml
+    Baseball: https://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml
+    College Basketball: https://rss.nytimes.com/services/xml/rss/nyt/CollegeBasketball.xml
+    College Football: https://rss.nytimes.com/services/xml/rss/nyt/CollegeFootball.xml
+    Golf: https://rss.nytimes.com/services/xml/rss/nyt/Golf.xml
+    Hockey: https://rss.nytimes.com/services/xml/rss/nyt/Hockey.xml
+    Pro-Basketball: https://rss.nytimes.com/services/xml/rss/nyt/ProBasketball.xml
+    Pro-Football: https://rss.nytimes.com/services/xml/rss/nyt/ProFootball.xml
+    Soccer: https://rss.nytimes.com/services/xml/rss/nyt/Soccer.xml
+    Tennis: https://rss.nytimes.com/services/xml/rss/nyt/Tennis.xml
+    Science: https://rss.nytimes.com/services/xml/rss/nyt/Science.xml
+    Environment: https://rss.nytimes.com/services/xml/rss/nyt/Climate.xml
+    Space & Cosmos: https://rss.nytimes.com/services/xml/rss/nyt/Space.xml
+    Health: https://www.nytimes.com/services/xml/rss/nyt/Health.xml
+    Well Blog: https://rss.nytimes.com/services/xml/rss/nyt/Well.xml
+    Arts: https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
+    Art & Design: https://rss.nytimes.com/services/xml/rss/nyt/ArtandDesign.xml
+    Books: https://rss.nytimes.com/services/xml/rss/nyt/Books.xml
+    Sunday Book Review: https://rss.nytimes.com/services/xml/rss/nyt/SundayBookReview.xml
+    Dance: https://rss.nytimes.com/services/xml/rss/nyt/Dance.xml
+    Movies: https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml
+    Music: https://rss.nytimes.com/services/xml/rss/nyt/Music.xml
+    Television: https://rss.nytimes.com/services/xml/rss/nyt/Television.xml
+    Theater: https://rss.nytimes.com/services/xml/rss/nyt/Theater.xml
+    Fashion & Style: https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml
+    Dining & Wine: https://rss.nytimes.com/services/xml/rss/nyt/DiningandWine.xml
+    Love: https://www.nytimes.com/services/xml/rss/nyt/Weddings.xml
+    T Magazine: https://rss.nytimes.com/services/xml/rss/nyt/tmagazine.xml
+    Travel: https://www.nytimes.com/services/xml/rss/nyt/Travel.xml
+    Sunday Review: https://rss.nytimes.com/services/xml/rss/nyt/sunday-review.xml
+- title: Market Watch
+  nickname: Market Watch
+  website: https://www.marketwatch.com
+  description: ''
+  language: english
+  keywords:
+  - news
+  - business
+  feedlist: https://www.marketwatch.com/rss/
+  favicon: https://www.marketwatch.com/favicon.ico
+  channels:
+    Top Stories: http://www.marketwatch.com/rss/topstories
+    Real-time headlines: http://www.marketwatch.com/rss/realtimeheadlines
+    MarketPulse: http://www.marketwatch.com/rss/marketpulse
+    Breaking News Bulletins: http://feeds.marketwatch.com/marketwatch/bulletins
+    Personal Finance Stories/Columns: http://www.marketwatch.com/rss/pf
+    Stocks to Watch: http://www.marketwatch.com/rss/StockstoWatch
+    Internet Stories/Columns: http://www.marketwatch.com/rss/internet
+    Mutual Funds: http://www.marketwatch.com/rss/mutualfunds
+    Software Stories/Columns: http://www.marketwatch.com/rss/software
+    Banking: http://www.marketwatch.com/rss/financial
+    Financial Services Stories/Columns: http://www.marketwatch.com/rss/financial
+    Commentary: http://www.marketwatch.com/rss/commentary
+    Newsletters & Research: http://www.marketwatch.com/rss/newslettersandresearch
+    Automotive Reviews: http://www.marketwatch.com/rss/Autoreviews
+- title: PBS NewsHour
+  nickname: PBS NewsHour
+  website: https://www.pbs.org/
+  description: ''
+  language: english
+  keywords:
+  - news
+  - usa
+  - public
+  feedlist: https://www.pbs.org/newshour/subscribe#rss-feeds
+  favicon: https://www.pbs.org/favicon.ico
+  channels:
+    The Latest: https://www.pbs.org/newshour/feeds/rss/headlines
+    Politics: https://www.pbs.org/newshour/feeds/rss/politics
+    Arts: https://www.pbs.org/newshour/feeds/rss/arts
+    Nation: https://www.pbs.org/newshour/feeds/rss/nation
+    World: https://www.pbs.org/newshour/feeds/rss/world
+    Economy: https://www.pbs.org/newshour/feeds/rss/economy
+    Science: https://www.pbs.org/newshour/feeds/rss/science
+    Health: https://www.pbs.org/newshour/feeds/rss/health
+    Education: https://www.pbs.org/newshour/feeds/rss/education
+    Agents for Change: https://www.pbs.org/newshour/feeds/rss/agents-for-change
+    American Graduate: https://www.pbs.org/newshour/feeds/rss/american-graduate
+- title: South China Morning Post
+  nickname: SCMP
+  website: https://www.scmp.com/
+  description: ''
+  language: english
+  keywords:
+  - news
+  - hong kong
+  - china
+  feedlist: https://www.scmp.com/rss
+  favicon: https://www.scmp.com/favicon.ico
+  channels:
+    News: https://www.scmp.com/rss/91/feed
+    News - Hong Kong: https://www.scmp.com/rss/2/feed
+    News - China: https://www.scmp.com/rss/4/feed
+    News - Asia: https://www.scmp.com/rss/3/feed
+    News - World: https://www.scmp.com/rss/5/feed
+    China - Policies & Politics: https://www.scmp.com/rss/318198/feed
+    China - Diplomacy & Defence: https://www.scmp.com/rss/318199/feed
+    China - Money & Wealth: https://www.scmp.com/rss/318200/feed
+    China - Economy: https://www.scmp.com/rss/318421/feed
+    China - Society: https://www.scmp.com/rss/318202/feed
+    Hong Kong - Politics: https://www.scmp.com/rss/318206/feed
+    Hong Kong - Economy: https://www.scmp.com/rss/318210/feed
+    Hong Kong - Health & Environment: https://www.scmp.com/rss/318208/feed
+    Hong Kong - Law & Crime: https://www.scmp.com/rss/318217/feed
+    Hong Kong - Education & Community: https://www.scmp.com/rss/318207/feed
+    World - United States & Canada: https://www.scmp.com/rss/322262/feed
+    World - Europe: https://www.scmp.com/rss/322263/feed
+    World - Middle East: https://www.scmp.com/rss/322264/feed
+    World - Americas: https://www.scmp.com/rss/322265/feed
+    World - Africa: https://www.scmp.com/rss/322266/feed
+    World - Russia & Central Asia: https://www.scmp.com/rss/322514/feed
+    Asia - Australasia: https://www.scmp.com/rss/322243/feed
+    Asia - Diplomacy: https://www.scmp.com/rss/318213/feed
+    Asia - East Asia: https://www.scmp.com/rss/318214/feed
+    Asia - Southeast Asia: https://www.scmp.com/rss/318215/feed
+    Asia - South Asia: https://www.scmp.com/rss/318216/feed
+    Business: https://www.scmp.com/rss/92/feed
+    Business - Companies: https://www.scmp.com/rss/10/feed
+    Business - Property: https://www.scmp.com/rss/96/feed
+    Business - Investor Relations: https://www.scmp.com/rss/7/feed
+    Business - Global Economy: https://www.scmp.com/rss/12/feed
+    Business - China Economy: https://www.scmp.com/rss/318421/feed
+    Business - Money & Wealth: https://www.scmp.com/rss/318200/feed
+    Comment: https://www.scmp.com/rss/6/feed
+    Comment - Insight & Opinion: https://www.scmp.com/rss/17/feed
+    Comment - Harry's View: https://www.scmp.com/rss/76670/feed
+    Comment - Blogs: https://www.scmp.com/rss/19/feed
+    Comment - Polls: https://www.scmp.com/rss/21/feed
+    Comment - Letters: https://www.scmp.com/rss/22/feed
+    Property: https://www.scmp.com/rss/96/feed
+    Property - Hong Kong & China: https://www.scmp.com/rss/43/feed
+    Property - International: https://www.scmp.com/rss/44/feed
+    Tech: https://www.scmp.com/rss/36/feed
+    Tech - China Tech: https://www.scmp.com/rss/320663/feed
+    Tech - Enterprises: https://www.scmp.com/rss/318218/feed
+    Tech - Social & Gadgets: https://www.scmp.com/rss/318219/feed
+    Tech - Start-ups: https://www.scmp.com/rss/318220/feed
+    Tech - Apps & Gaming: https://www.scmp.com/rss/318221/feed
+    Tech - Innovation: https://www.scmp.com/rss/318222/feed
+    Tech - Leaders & Founders: https://www.scmp.com/rss/318223/feed
+    Tech - Science & Research: https://www.scmp.com/rss/318224/feed
+    Tech - E-Commerce: https://www.scmp.com/rss/318225/feed
+    Life: https://www.scmp.com/rss/94/feed
+    Life - Fashion & Luxury: https://www.scmp.com/rss/28/feed
+    Life - Travel & Leisure: https://www.scmp.com/rss/37/feed
+    Life - Families: https://www.scmp.com/rss/35/feed
+    Life - Food & Drink: https://www.scmp.com/rss/30/feed
+    Life - Health & Beauty: https://www.scmp.com/rss/24/feed
+    Life - Watches: https://www.scmp.com/rss/318256/feed
+    Culture: https://www.scmp.com/rss/322296/feed
+    Culture - Books: https://www.scmp.com/rss/25/feed
+    Culture - Music: https://www.scmp.com/rss/318255/feed
+    Culture - Film & TV: https://www.scmp.com/rss/318254/feed
+    Culture - Arts & Entertainment: https://www.scmp.com/rss/23/feed
+    Sport: https://www.scmp.com/rss/95/feed
+    Sport - Hong Kong: https://www.scmp.com/rss/38/feed
+    Sport - China: https://www.scmp.com/rss/41/feed
+    Sport - Golf: https://www.scmp.com/rss/116/feed
+    Sport - Racing: https://www.scmp.com/rss/39/feed
+    Sport - Rugby: https://www.scmp.com/rss/310895/feed
+    Sport - Soccer: https://www.scmp.com/rss/40/feed
+    Sport - Tennis: https://www.scmp.com/rss/117/feed
+    Sport - Other Sport: https://www.scmp.com/rss/47492/feed
+    Sport - Boxing: https://www.scmp.com/rss/318217/feed
+    Post Mag: https://www.scmp.com/rss/71/feed
+    Post Mag - Long Reads: https://www.scmp.com/rss/322658/feed
+    Post Mag - Design & Interiors: https://www.scmp.com/rss/322659/feed
+    Post Mag - Food & Drink: https://www.scmp.com/rss/321716/feed
+    Post Mag - Travel: https://www.scmp.com/rss/321721/feed
+    Post Mag - Fashion: https://www.scmp.com/rss/321719/feed
+    Post Mag - Books: https://www.scmp.com/rss/321720/feed
+    Post Mag - Arts & Music: https://www.scmp.com/rss/321713/feed
+    Style: https://www.scmp.com/rss/72/feed
+    Style - News & Trends: https://www.scmp.com/rss/322896/feed
+    Style - Fashion & Beauty: https://www.scmp.com/rss/322897/feed
+    Style - People & Events: https://www.scmp.com/rss/322898/feed
+    Style - Travel & Food: https://www.scmp.com/rss/322899/feed
+    Style - Watches & Jewellery: https://www.scmp.com/rss/322900/feed
+    Style - Tech & Design: https://www.scmp.com/rss/322901/feed
+    This Week In Asia: https://www.scmp.com/rss/323045/feed
+    This Week In Asia - Politics: https://www.scmp.com/rss/323046/feed
+    This Week In Asia - Geopolitics: https://www.scmp.com/rss/323047/feed
+    This Week In Asia - Business: https://www.scmp.com/rss/323048/feed
+    This Week In Asia - Society: https://www.scmp.com/rss/323049/feed
+    This Week In Asia - Opinion: https://www.scmp.com/rss/323050/feed
+    This Week In Asia - Asia Buzz: https://www.scmp.com/rss/323051/feed
+    This Week In Asia - Personalities: https://www.scmp.com/rss/323052/feed
+    Abacus: https://www.scmp.com/rss/506035/feed
+    Abacus - Tech: https://www.scmp.com/rss/506036/feed
+    Abacus - Games: https://www.scmp.com/rss/506037/feed
+    Abacus - Culture: https://www.scmp.com/rss/506038/feed
+    Abacus - Reviewed: https://www.scmp.com/rss/506044/feed
+    Abacus - Who is & what is: https://www.scmp.com/rss/506039/feed
+    Abacus - News bites: https://www.scmp.com/rss/506042/feed
+    SCMP cooking: https://www.scmp.com/rss/502060/feed
+- title: Wall Street Journal, The
+  nickname: WSJ
+  website: https://www.wsj.com
+  description: ''
+  language: english
+  keywords:
+  - news
+  - business
+  - usa
+  feedlist: https://www.wsj.com/news/rss-news-and-feeds
+  favicon: https://www.wsj.com/favicon.ico
+  channels:
+    Opinion: https://feeds.a.dj.com/rss/RSSOpinion.xml
+    World News: https://feeds.a.dj.com/rss/RSSWorldNews.xml
+    US Business: https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml
+    Market News: https://feeds.a.dj.com/rss/RSSMarketsMain.xml
+    Technology: https://feeds.a.dj.com/rss/RSSWSJD.xml
+    Lifestyle: https://feeds.a.dj.com/rss/RSSLifestyle.xml
+- title: Newswire
+  nickname: Newswire
+  website: https://www.newswire.com/
+  description: ''
+  language: english
+  keywords:
+  - press release
+  feedlist: https://www.newswire.com/feeds
+  favicon: https://www.newswire.com/favicon.ico
+  channels:
+    Premium Press Release: https://www.newswire.com/newsroom/rss/custom/premium-press-releases
+    Latest Press Release: https://www.newswire.com/newsroom/rss/custom/all-press-releases
+    Arts and Entertainment: https://www.newswire.com/newsroom/rss/arts-and-entertainment

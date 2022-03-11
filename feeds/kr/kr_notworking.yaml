@@ -1,0 +1,25 @@
+---
+version: 1
+createdAt: '2022-03-03 12:12:00.000Z'
+data:
+- title: 세계일보
+  nickname: 세계일보
+  website: http://www.segye.com/
+  description: ''
+  language: korean
+  keywords:
+  - 뉴스
+  feedlist: http://www.segye.com/rssInfo
+  favicon: http://www.segye.com/favicon.ico
+  channels:
+    전체뉴스: http://www.segye.com/Articles/feedlist/segye_recent.xml
+    정치: http://www.segye.com/Articles/feedlist/segye_politic.xml
+    경제: http://www.segye.com/Articles/feedlist/segye_economy.xml
+    사회: http://www.segye.com/Articles/feedlist/segye_society.xml
+    국제: http://www.segye.com/Articles/feedlist/segye_international.xml
+    전국: http://www.segye.com/Articles/feedlist/segye_local.xml
+    문화: http://www.segye.com/Articles/feedlist/segye_culture.xml
+    오피니언: http://www.segye.com/Articles/feedlist/segye_opinion.xml
+    연예: http://www.segye.com/Articles/feedlist/segye_entertainment.xml
+    스포츠: http://www.segye.com/Articles/feedlist/segye_sports.xml
+    포토: http://www.segye.com/Articles/feedlist/segye_photo.xml

@@ -13,7 +13,7 @@ The following definitions shall have the same meaning regardless of whether they
 
 For the purposes of this Disclaimer:
 
-- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Disclaimer) refers to Nuntium.
+- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Disclaimer) refers to the developer(s) of this app.
 - __Service__ refers to the Application.
 - __You__ means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
